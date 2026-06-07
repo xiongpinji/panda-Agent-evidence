@@ -1,0 +1,160 @@
+{
+  "kind": "single_tenant_external_unblock_package_report",
+  "version": 1,
+  "generated_at": "2026-06-07T19:56:07+00:00",
+  "ok": true,
+  "status": "passed",
+  "output": "D:\\AI\u7f16\u7a0b\u5e93\\\u9879\u76ee\u5e93\\\u8fdb\u884c\u4e2d\u7684\u9879\u76ee\\GTP5 \u4f18\u5316\\GTP5 \u4f18\u5316\\X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212\\source\\.xagent_runtime\\reports\\single-tenant-external-unblock-package.zip",
+  "archive_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
+  "archive_size": 15687,
+  "file_count": 10,
+  "manifest": {
+    "kind": "single_tenant_external_unblock_package",
+    "version": 1,
+    "created_at": "2026-06-07T19:56:07+00:00",
+    "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
+    "plan_status": "ready",
+    "plan_ok": true,
+    "plan_summary": {
+      "audit_status": "ready",
+      "audit_ok": true,
+      "structural_ok": true,
+      "release_ready": true,
+      "release_claim_allowed": true,
+      "release_blockers": 0,
+      "steps": 0,
+      "root_cause_summary_count": 0,
+      "root_cause_blockers_count": 0,
+      "root_cause_ids": [],
+      "required_env_vars": 0,
+      "required_cli_args": 0,
+      "provider_env_contracts": 0,
+      "commands": 0,
+      "expected_artifacts": 0
+    },
+    "freeze_handoff_status": "ready",
+    "freeze_handoff_ok": true,
+    "freeze_handoff_summary": {
+      "plan_status": "ready",
+      "plan_ok": true,
+      "audit_status": "ready",
+      "audit_ok": true,
+      "audit_load_error": null,
+      "release_ready": true,
+      "steps": 0,
+      "root_cause_summary_count": 0,
+      "root_cause_blockers_count": 0,
+      "root_cause_ids": [],
+      "operator_checklist": 0,
+      "required_env_vars": 0,
+      "required_cli_args": 0,
+      "provider_env_contracts": 0,
+      "env_matrix": 0,
+      "command_sequence": 19,
+      "expected_artifacts": 34,
+      "acceptance_criteria": 14
+    },
+    "operator_checklist_status": "blocked",
+    "operator_checklist_ok": true,
+    "operator_checklist_summary": {
+      "handoff_status": "ready",
+      "handoff_ok": true,
+      "release_claim_aggregation_status": "failed",
+      "release_claim_aggregation_loaded": true,
+      "release_claim_aggregation_fresh": false,
+      "release_claim_allowed": false,
+      "release_ready": false,
+      "root_cause_ids": 1,
+      "root_cause_ids_count": 1,
+      "root_cause_summary": 1,
+      "root_cause_blockers": 1,
+      "items": 1,
+      "operator_inputs": 5,
+      "required_env_vars": 18,
+      "required_cli_args": 1,
+      "provider_env_contracts": 0,
+      "commands": 2,
+      "expected_artifacts": 2,
+      "acceptance_criteria": 2,
+      "strict_execution_steps": 12
+    },
+    "operator_contract_status": "passed",
+    "operator_execution_runbook_included": false,
+    "operator_rehearsal_map_fill_guide_included": true,
+    "file_count": 10,
+    "files": [
+      {
+        "role": "plan",
+        "path": "single-tenant-external-unblock-plan.json",
+        "size": 1559,
+        "sha256": "5d727d2e40848ed5b6c4e7c8dacba69754452c53d1ff16ea4adab4666fbba550"
+      },
+      {
+        "role": "markdown",
+        "path": "single-tenant-external-unblock-plan.md",
+        "size": 628,
+        "sha256": "ac8c70125af02877c8497e55ff9d2c67806f8e028cc5dbc3def567cac26bef01"
+      },
+      {
+        "role": "env_template",
+        "path": "single-tenant-external-unblock.env.example",
+        "size": 431,
+        "sha256": "53575a1f6b1153b2f925844cd3f3663376fb530c0cc1700fcb02ab579752f18d"
+      },
+      {
+        "role": "release_freeze_handoff",
+        "path": "single-tenant-external-release-freeze-handoff.json",
+        "size": 15046,
+        "sha256": "172b728663779d088c233cff54e72140f28d542905fc2e5275e42cae05c2c84d"
+      },
+      {
+        "role": "release_freeze_markdown",
+        "path": "single-tenant-external-release-freeze-handoff.md",
+        "size": 12862,
+        "sha256": "e497e0e8a4025fbc705e470af0ba72d3761d8e5a0d21652cd9ee554d51a19d12"
+      },
+      {
+        "role": "release_freeze_env_template",
+        "path": "single-tenant-external-release-freeze.env.example",
+        "size": 267,
+        "sha256": "4502e56bb0556b3ee9d4c339f07e8c33cac88acbbf0bc3562fd038471d43ff5f"
+      },
+      {
+        "role": "external_operator_checklist",
+        "path": "single-tenant-external-operator-checklist.json",
+        "size": 17230,
+        "sha256": "4feb7381802fa6007e7798b2699e2c15dfdc0ac3ccb25abee84cbd1106edbd4f"
+      },
+      {
+        "role": "external_operator_markdown",
+        "path": "single-tenant-external-operator-checklist.md",
+        "size": 9565,
+        "sha256": "bddbadab2588ec1814a392272ff5d08e0c6d05bdfc4c82369486251738b7fc21"
+      },
+      {
+        "role": "external_operator_contract",
+        "path": "single-tenant-external-operator-checklist-contract.json",
+        "size": 3287,
+        "sha256": "af37fa640d11bf2d32445a1491f3a7655768a326aa1c17270d2bfdff05c1c395"
+      },
+      {
+        "role": "operator_rehearsal_map_fill_guide",
+        "path": "single-tenant-external-operator-rehearsal-maps.md",
+        "size": 5465,
+        "sha256": "c1f8ddf17942feba48d609a795a09dc846b8910ab653ce42a133f93d89e4ebf0"
+      }
+    ]
+  },
+  "verification": {
+    "kind": "single_tenant_external_unblock_package_verify_report",
+    "version": 1,
+    "generated_at": "2026-06-07T19:56:07+00:00",
+    "ok": true,
+    "status": "passed",
+    "archive": "D:\\AI\u7f16\u7a0b\u5e93\\\u9879\u76ee\u5e93\\\u8fdb\u884c\u4e2d\u7684\u9879\u76ee\\GTP5 \u4f18\u5316\\GTP5 \u4f18\u5316\\X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212\\source\\.xagent_runtime\\reports\\single-tenant-external-unblock-package.zip",
+    "archive_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
+    "archive_size": 15687,
+    "checked_files": 10,
+    "manifest_created_at": "2026-06-07T19:56:07+00:00"
+  }
+}

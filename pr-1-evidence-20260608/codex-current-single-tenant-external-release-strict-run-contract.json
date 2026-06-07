@@ -1,0 +1,188 @@
+{
+  "kind": "single_tenant_external_release_strict_run_contract",
+  "version": 1,
+  "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
+  "report_path": ".xagent_runtime/reports/single-tenant-external-release-strict-run.json",
+  "ok": true,
+  "status": "passed",
+  "summary": {
+    "report_status": "blocked",
+    "plan_only": false,
+    "structural_ok": true,
+    "execution_ready": false,
+    "release_claim_allowed": false,
+    "claim_blockers": [
+      "deliverability_task_board_sync is environment_blocked at .xagent_runtime/reports/deliverability-task-board-sync.json",
+      "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json",
+      "single_tenant_external_execution_receipt_assist is environment_blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist.json",
+      "single_tenant_external_execution_receipt_assist_contract is blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist-contract.json"
+    ],
+    "release_progress_percent": 88,
+    "remaining_release_blockers": 4,
+    "claim_blockers_count": 4,
+    "required_env_vars_count": 18,
+    "required_cli_args_count": 1,
+    "root_cause_ids_count": 8,
+    "missing_final_artifacts_count": 0,
+    "release_ready": false,
+    "failed_checks": 0
+  },
+  "results": [
+    {
+      "name": "single_tenant_external_release_strict_run_shape",
+      "status": "passed",
+      "details": {
+        "kind": "single_tenant_external_release_strict_run",
+        "status": "blocked",
+        "plan_only": false
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_strict_run_steps",
+      "status": "passed",
+      "details": {
+        "steps": [
+          "remote_provider_evidence",
+          "remote_provider_evidence_handoff_contract",
+          "release_environment_preflight",
+          "remote_delivery_handoff",
+          "observability_strict_readiness",
+          "k8s_post_deploy_smoke",
+          "deliverability_task_board_sync",
+          "deliverability_task_board_visibility",
+          "single_tenant_runtime_evidence",
+          "single_tenant_release_handoff",
+          "single_tenant_release_handoff_contract",
+          "single_tenant_external_release_audit",
+          "single_tenant_external_unblock_plan",
+          "single_tenant_external_unblock_plan_contract",
+          "single_tenant_external_release_freeze_handoff",
+          "single_tenant_external_release_freeze_handoff_contract",
+          "single_tenant_external_operator_checklist",
+          "single_tenant_external_operator_checklist_contract",
+          "single_tenant_external_unblock_package",
+          "single_tenant_external_unblock_package_verify",
+          "single_tenant_external_handoff_artifacts",
+          "single_tenant_external_delivery_receipt",
+          "single_tenant_external_delivery_receipt_contract",
+          "single_tenant_external_operator_rehearsal_gate",
+          "single_tenant_external_execution_receipt_assist",
+          "single_tenant_external_execution_receipt_assist_contract",
+          "single_tenant_external_pr_ci_evidence_manifest",
+          "single_tenant_external_pr_ci_evidence_manifest_contract",
+          "single_tenant_external_upload_bundle_index",
+          "single_tenant_external_upload_bundle_index_contract",
+          "single_tenant_external_readiness_execution_checklist",
+          "single_tenant_external_readiness_execution_checklist_contract",
+          "single_tenant_external_pr_ci_upload_handoff",
+          "single_tenant_external_pr_ci_upload_handoff_contract"
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_strict_run_step_contract",
+      "status": "passed",
+      "details": {
+        "steps": 34,
+        "plan_only": false
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_strict_run_summary",
+      "status": "passed",
+      "details": {
+        "total": 34,
+        "required_total": 34,
+        "passed": 30,
+        "required_passed": 30,
+        "planned": 0,
+        "blocked": 2,
+        "required_blocked": 2,
+        "environment_blocked": 2,
+        "required_environment_blocked": 2,
+        "failed": 0,
+        "required_failed": 0,
+        "release_blockers": 4,
+        "required_env_vars": 18,
+        "required_cli_args": 1,
+        "release_ready": false
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_strict_run_gaps",
+      "status": "passed",
+      "details": {
+        "gaps": 4
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_strict_run_top_level_gaps",
+      "status": "passed",
+      "details": {
+        "release_progress_percent": 88,
+        "remaining_release_blockers": 4,
+        "root_cause_ids_count": 8,
+        "missing_final_artifacts_count": 0
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_strict_run_status",
+      "status": "passed",
+      "details": {
+        "status": "blocked",
+        "ok": false
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_strict_run_claim_guard",
+      "status": "passed",
+      "details": {
+        "structural_ok": true,
+        "execution_ready": false,
+        "release_claim_allowed": false,
+        "claim_blockers": [
+          "deliverability_task_board_sync is environment_blocked at .xagent_runtime/reports/deliverability-task-board-sync.json",
+          "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json",
+          "single_tenant_external_execution_receipt_assist is environment_blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist.json",
+          "single_tenant_external_execution_receipt_assist_contract is blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist-contract.json"
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_strict_run_final_artifacts",
+      "status": "passed",
+      "details": {
+        "artifacts": 33,
+        "existing": 33,
+        "plan_snapshot_hash_skips": 0
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_strict_run_secret_tails",
+      "status": "passed",
+      "details": {
+        "leaks": 0
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_strict_run_ready_policy",
+      "status": "passed",
+      "details": {
+        "status": "blocked",
+        "require_ready": false
+      },
+      "error": null
+    }
+  ],
+  "results_count": 11
+}

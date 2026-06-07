@@ -1,0 +1,26 @@
+{
+  "kind": "desktop_suite_package_budget",
+  "generated_at": "2026-06-03T21:54:45+00:00",
+  "ok": true,
+  "status": "passed",
+  "max_bytes": 5242880,
+  "archives": [
+    {
+      "archive": "desktop-suite-evidence.zip",
+      "ok": true,
+      "archive_size": 639973,
+      "max_bytes": 5242880,
+      "archive_sha256": "1f74396b85bd20b86cf56969cf6feeea7d7e42ea4114f1a488f133ce6f335f7b",
+      "checked_files": 85
+    },
+    {
+      "archive": "desktop-suite-evidence-ps.zip",
+      "ok": true,
+      "archive_size": 639976,
+      "max_bytes": 5242880,
+      "archive_sha256": "dd4a4ab276572543cffebec06ad4d1d31d38de42ed7ced65fc47418bc725e357",
+      "checked_files": 85
+    }
+  ],
+  "archives_count": 2
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "external_unblock_package",
+    "upload_name": "codex-current-single-tenant-external-unblock-package.zip",
+    "source": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
+    "size": 15687,
+    "sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4"
+  },
+  {
+    "id": "external_unblock_package_report",
+    "upload_name": "codex-current-single-tenant-external-unblock-package-report.json",
+    "source": ".xagent_runtime/reports/single-tenant-external-unblock-package-report.json",
+    "size": 6149,
+    "sha256": "fe4b8ec5751e590f6f0bbe6ef004b122edf45f8af1920e015fa6d9cfe4a609ec"
+  },
+  {
+    "id": "external_unblock_package_verify_report",
+    "upload_name": "codex-current-single-tenant-external-unblock-package-verify-report.json",
+    "source": ".xagent_runtime/reports/single-tenant-external-unblock-package-verify-report.json",
+    "size": 631,
+    "sha256": "670a6d01940f935bdcfed98e007ff52e7a00c4179366a0f4a052cd85818f4676"
+  },
+  {
+    "id": "external_handoff_artifact_index",
+    "upload_name": "codex-current-single-tenant-external-handoff-artifacts.json",
+    "source": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
+    "size": 15523,
+    "sha256": "60232fe87f58377be8a544124bf490834456d7da8aad7c326f5490c54427783c"
+  },
+  {
+    "id": "external_release_strict_run_contract",
+    "upload_name": "codex-current-single-tenant-external-release-strict-run-contract.json",
+    "source": ".xagent_runtime/reports/single-tenant-external-release-strict-run-contract.json",
+    "size": 7089,
+    "sha256": "4f067084e250fe30636f6220e461a0dcecb447ae4555f30dc72696da700b7b9f"
+  },
+  {
+    "id": "external_delivery_receipt",
+    "upload_name": "codex-current-single-tenant-external-delivery-receipt.json",
+    "source": ".xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
+    "size": 12326,
+    "sha256": "c13e7a2f55b7a3c9ec601ffb0fdd052e4ab18261a40a8f8586c4d95a5e877ba9"
+  },
+  {
+    "id": "external_delivery_receipt_contract",
+    "upload_name": "codex-current-single-tenant-external-delivery-receipt-contract.json",
+    "source": ".xagent_runtime/reports/single-tenant-external-delivery-receipt-contract.json",
+    "size": 2269,
+    "sha256": "c6e2b0d6c633f28da6359e216effbfc4747c20e26254940e1943db6a62fd908c"
+  },
+  {
+    "id": "external_pr_ci_evidence_manifest",
+    "upload_name": "codex-current-single-tenant-external-pr-ci-evidence-manifest.json",
+    "source": ".xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest.json",
+    "size": 6116,
+    "sha256": "961a86451809ee878a545cd6245a0997b49a94e38899912d07a4b119b7f71202"
+  },
+  {
+    "id": "external_pr_ci_evidence_manifest_contract",
+    "upload_name": "codex-current-single-tenant-external-pr-ci-evidence-manifest-contract.json",
+    "source": ".xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest-contract.json",
+    "size": 2444,
+    "sha256": "ffb4b50303c2b2edc6cc43030c911f8d05d0ff7fd6ad6b9a0bed4eff403dbcbd"
+  },
+  {
+    "id": "desktop_suite_current_full_package",
+    "upload_name": "codex-current-desktop-suite-current-full.zip",
+    "source": ".xagent_runtime/reports/desktop-suite-current-full.zip",
+    "size": 632629,
+    "sha256": "7fa2bc2d88ea2171974d41f52e9312b76c5a7c14e328983fc7a51d1505238d62"
+  },
+  {
+    "id": "desktop_suite_package_budget",
+    "upload_name": "codex-current-desktop-suite-package-budget.json",
+    "source": ".xagent_runtime/reports/desktop-suite-package-budget.json",
+    "size": 730,
+    "sha256": "c45a7267d08bdbdd60f0a7f85277581030540ea7693f4f2bc789f9a674c30425"
+  }
+]

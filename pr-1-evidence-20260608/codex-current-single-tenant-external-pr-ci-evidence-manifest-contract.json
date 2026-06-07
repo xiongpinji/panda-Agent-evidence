@@ -1,0 +1,86 @@
+{
+  "kind": "single_tenant_external_pr_ci_evidence_manifest_contract",
+  "version": 1,
+  "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
+  "manifest_path": ".xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest.json",
+  "ok": true,
+  "status": "passed",
+  "summary": {
+    "manifest_status": "ready",
+    "release_ready": true,
+    "root_cause_ids_count": 0,
+    "root_cause_ids": [],
+    "failed_checks": 0
+  },
+  "results": [
+    {
+      "name": "single_tenant_external_pr_ci_evidence_manifest_shape",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "release_ready": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_pr_ci_evidence_manifest_source_consistency",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "upload_artifacts": 5
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_pr_ci_evidence_manifest_generated_at",
+      "status": "passed",
+      "details": {
+        "generated_at": "2026-06-07T19:56:14+00:00",
+        "source_receipt_generated_at": "2026-06-07T19:56:10+00:00"
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_pr_ci_evidence_manifest_pr_ci_handoff",
+      "status": "passed",
+      "details": {
+        "blocker_present": false,
+        "required_env_vars": 0
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_pr_ci_evidence_manifest_remote_artifacts",
+      "status": "passed",
+      "details": {
+        "required": false,
+        "url_valid": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_pr_ci_evidence_manifest_artifacts",
+      "status": "passed",
+      "details": {
+        "upload_artifacts": 5
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_pr_ci_evidence_manifest_secret_hygiene",
+      "status": "passed",
+      "details": {},
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_pr_ci_evidence_manifest_ready_policy",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "require_ready": false
+      },
+      "error": null
+    }
+  ],
+  "results_count": 8
+}

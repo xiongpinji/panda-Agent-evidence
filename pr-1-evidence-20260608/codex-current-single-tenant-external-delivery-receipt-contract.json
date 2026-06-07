@@ -1,0 +1,81 @@
+{
+  "kind": "single_tenant_external_delivery_receipt_contract",
+  "version": 1,
+  "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
+  "receipt_path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
+  "ok": true,
+  "status": "passed",
+  "summary": {
+    "receipt_status": "ready",
+    "release_ready": true,
+    "required_env_vars_count": 0,
+    "required_cli_args_count": 0,
+    "root_cause_ids_count": 0,
+    "blocker_ids_count": 0,
+    "failed_checks": 0
+  },
+  "results": [
+    {
+      "name": "single_tenant_external_delivery_receipt_shape",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "release_ready": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_delivery_receipt_source_consistency",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "required_env_vars": 0,
+        "required_cli_args": 0
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_delivery_receipt_generated_at",
+      "status": "passed",
+      "details": {
+        "generated_at": "2026-06-07T19:56:10+00:00",
+        "source_handoff_generated_at": "2026-06-07T19:56:09+00:00"
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_delivery_receipt_artifacts",
+      "status": "passed",
+      "details": {
+        "artifacts": 3
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_delivery_receipt_remote_artifacts",
+      "status": "passed",
+      "details": {
+        "required": false,
+        "url_present": true,
+        "url_valid": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_delivery_receipt_secret_hygiene",
+      "status": "passed",
+      "details": {},
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_delivery_receipt_ready_policy",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "require_ready": false
+      },
+      "error": null
+    }
+  ],
+  "results_count": 7
+}

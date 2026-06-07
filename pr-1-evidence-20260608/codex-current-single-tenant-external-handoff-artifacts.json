@@ -1,0 +1,423 @@
+{
+  "kind": "single_tenant_external_handoff_artifacts",
+  "version": 1,
+  "generated_at": "2026-06-07T19:56:09+00:00",
+  "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
+  "artifact_scope": "pre_receipt_handoff_index",
+  "artifact_scope_description": "Indexes external unblock, release-freeze, operator checklist, package, and optional strict-run evidence before delivery receipt, PR/CI manifest, upload bundle, and readiness execution checklist are generated.",
+  "ok": true,
+  "status": "ready",
+  "structural_ok": true,
+  "execution_ready": false,
+  "release_ready": true,
+  "release_claim_allowed": false,
+  "claim_blockers": [
+    "pre_receipt_handoff_index",
+    "delivery_receipt_not_completed",
+    "remote_pr_ci_upload_not_verified",
+    "final_require_ready_not_passed"
+  ],
+  "claim_blockers_count": 4,
+  "package_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
+  "source_generated_at": {
+    "count": 6,
+    "values": {
+      "external_release_audit": "2026-06-07T19:56:01+00:00",
+      "external_unblock_plan": "2026-06-07T19:56:01+00:00",
+      "external_release_freeze_handoff": "2026-06-07T19:56:03+00:00",
+      "external_operator_checklist": "2026-06-07T19:56:05+00:00",
+      "external_unblock_package_report": "2026-06-07T19:56:07+00:00",
+      "external_unblock_package_verify_report": "2026-06-07T19:56:08+00:00"
+    },
+    "latest_source": "external_unblock_package_verify_report",
+    "latest": "2026-06-07T19:56:08+00:00",
+    "invalid": {}
+  },
+  "latest_source_generated_at": "2026-06-07T19:56:08+00:00",
+  "release_blockers": 0,
+  "root_cause_ids": [],
+  "root_cause_ids_count": 0,
+  "required_env_vars_count": 0,
+  "required_env_vars": [],
+  "required_cli_args_count": 0,
+  "required_cli_args": [],
+  "blocker_ids": [],
+  "blocker_ids_count": 0,
+  "next_actions": [
+    "No external release blockers remain.",
+    "Run the strict external release runner and archive the delivery receipt, PR/CI manifest, upload bundle index, readiness checklist, PR/CI upload handoff, delivery status report, evidence collection pack, execution receipt, and final handoff artifact index.",
+    "Use single-tenant-runtime-evidence.json to track the remaining P2-B release blockers.",
+    "Run the final audit gates in the prepared real Windows/Docker acceptance environment.",
+    "Resolve release environment preflight blockers, then rerun scripts/check_release_environment_preflight.py --strict."
+  ],
+  "next_actions_count": 5,
+  "summary": {
+    "artifact_scope": "pre_receipt_handoff_index",
+    "excluded_post_receipt_artifact_ids": [
+      "external_delivery_receipt",
+      "external_delivery_receipt_contract",
+      "external_pr_ci_evidence_manifest",
+      "external_pr_ci_evidence_manifest_contract",
+      "external_upload_bundle_index",
+      "external_upload_bundle_index_contract",
+      "external_readiness_execution_checklist",
+      "external_readiness_execution_checklist_contract",
+      "external_pr_ci_upload_handoff",
+      "external_pr_ci_upload_handoff_markdown",
+      "external_pr_ci_upload_handoff_contract",
+      "external_delivery_status_report",
+      "external_delivery_status_report_markdown",
+      "external_delivery_status_report_contract"
+    ],
+    "release_status": "ready",
+    "structural_ok": true,
+    "execution_ready": false,
+    "release_ready": true,
+    "release_claim_allowed": false,
+    "claim_blockers": 4,
+    "root_cause_ids": 0,
+    "root_cause_ids_count": 0,
+    "plan_status": "ready",
+    "artifacts": 14,
+    "present_artifacts": 14,
+    "missing_artifacts": 0,
+    "optional_artifacts": 0,
+    "failed_checks": 0,
+    "package_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
+    "strict_run_optional_evidence": {
+      "requested": false,
+      "requested_ids": [],
+      "included_ids": [],
+      "missing_requested_ids": [],
+      "default_available": {
+        "external_release_strict_run": true,
+        "external_release_strict_run_contract": true
+      },
+      "default_paths": {
+        "external_release_strict_run": ".xagent_runtime/reports/single-tenant-external-release-strict-run.json",
+        "external_release_strict_run_contract": ".xagent_runtime/reports/single-tenant-external-release-strict-run-contract.json"
+      }
+    },
+    "source_generated_at": {
+      "count": 6,
+      "values": {
+        "external_release_audit": "2026-06-07T19:56:01+00:00",
+        "external_unblock_plan": "2026-06-07T19:56:01+00:00",
+        "external_release_freeze_handoff": "2026-06-07T19:56:03+00:00",
+        "external_operator_checklist": "2026-06-07T19:56:05+00:00",
+        "external_unblock_package_report": "2026-06-07T19:56:07+00:00",
+        "external_unblock_package_verify_report": "2026-06-07T19:56:08+00:00"
+      },
+      "latest_source": "external_unblock_package_verify_report",
+      "latest": "2026-06-07T19:56:08+00:00",
+      "invalid": {}
+    },
+    "release_digest": {
+      "release_blockers": 0,
+      "leaf_release_blockers": 0,
+      "blocker_ids": [],
+      "leaf_blocker_details": [],
+      "root_cause_ids": [],
+      "root_cause_ids_count": 0,
+      "required_env_vars": 0,
+      "required_env_var_names": [],
+      "required_cli_args": 0,
+      "required_cli_arg_names": [],
+      "unblock_steps": 0,
+      "freeze_commands": 19,
+      "freeze_expected_artifacts": 34,
+      "next_actions": [
+        "No external release blockers remain.",
+        "Run the strict external release runner and archive the delivery receipt, PR/CI manifest, upload bundle index, readiness checklist, PR/CI upload handoff, delivery status report, evidence collection pack, execution receipt, and final handoff artifact index.",
+        "Use single-tenant-runtime-evidence.json to track the remaining P2-B release blockers.",
+        "Run the final audit gates in the prepared real Windows/Docker acceptance environment.",
+        "Resolve release environment preflight blockers, then rerun scripts/check_release_environment_preflight.py --strict."
+      ]
+    }
+  },
+  "artifacts": [
+    {
+      "id": "external_release_audit",
+      "path": ".xagent_runtime/reports/single-tenant-external-release-audit.json",
+      "exists": true,
+      "size": 14244,
+      "sha256": "ef1ddf02eb289cb60df64259b43fb389b3e683856a4af8e12e2ea3e19857cdfe"
+    },
+    {
+      "id": "external_unblock_plan",
+      "path": ".xagent_runtime/reports/single-tenant-external-unblock-plan.json",
+      "exists": true,
+      "size": 1559,
+      "sha256": "5d727d2e40848ed5b6c4e7c8dacba69754452c53d1ff16ea4adab4666fbba550"
+    },
+    {
+      "id": "external_unblock_markdown",
+      "path": ".xagent_runtime/reports/single-tenant-external-unblock-plan.md",
+      "exists": true,
+      "size": 628,
+      "sha256": "ac8c70125af02877c8497e55ff9d2c67806f8e028cc5dbc3def567cac26bef01"
+    },
+    {
+      "id": "external_unblock_env_template",
+      "path": ".xagent_runtime/reports/single-tenant-external-unblock.env.example",
+      "exists": true,
+      "size": 431,
+      "sha256": "53575a1f6b1153b2f925844cd3f3663376fb530c0cc1700fcb02ab579752f18d"
+    },
+    {
+      "id": "external_release_freeze_handoff",
+      "path": ".xagent_runtime/reports/single-tenant-external-release-freeze-handoff.json",
+      "exists": true,
+      "size": 15046,
+      "sha256": "172b728663779d088c233cff54e72140f28d542905fc2e5275e42cae05c2c84d"
+    },
+    {
+      "id": "external_release_freeze_markdown",
+      "path": ".xagent_runtime/reports/single-tenant-external-release-freeze-handoff.md",
+      "exists": true,
+      "size": 12862,
+      "sha256": "e497e0e8a4025fbc705e470af0ba72d3761d8e5a0d21652cd9ee554d51a19d12"
+    },
+    {
+      "id": "external_release_freeze_env_template",
+      "path": ".xagent_runtime/reports/single-tenant-external-release-freeze.env.example",
+      "exists": true,
+      "size": 267,
+      "sha256": "4502e56bb0556b3ee9d4c339f07e8c33cac88acbbf0bc3562fd038471d43ff5f"
+    },
+    {
+      "id": "external_release_freeze_contract",
+      "path": ".xagent_runtime/reports/single-tenant-external-release-freeze-handoff-contract.json",
+      "exists": true,
+      "size": 3452,
+      "sha256": "8f743a61ce3714aed4bdfeeb443c7e4aae2b4cf7a4e189fd172ce546ee6b6559"
+    },
+    {
+      "id": "external_operator_checklist",
+      "path": ".xagent_runtime/reports/single-tenant-external-operator-checklist.json",
+      "exists": true,
+      "size": 17230,
+      "sha256": "4feb7381802fa6007e7798b2699e2c15dfdc0ac3ccb25abee84cbd1106edbd4f"
+    },
+    {
+      "id": "external_operator_checklist_markdown",
+      "path": ".xagent_runtime/reports/single-tenant-external-operator-checklist.md",
+      "exists": true,
+      "size": 9565,
+      "sha256": "bddbadab2588ec1814a392272ff5d08e0c6d05bdfc4c82369486251738b7fc21"
+    },
+    {
+      "id": "external_operator_checklist_contract",
+      "path": ".xagent_runtime/reports/single-tenant-external-operator-checklist-contract.json",
+      "exists": true,
+      "size": 3287,
+      "sha256": "af37fa640d11bf2d32445a1491f3a7655768a326aa1c17270d2bfdff05c1c395"
+    },
+    {
+      "id": "external_unblock_package",
+      "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
+      "exists": true,
+      "size": 15687,
+      "sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4"
+    },
+    {
+      "id": "external_unblock_package_report",
+      "path": ".xagent_runtime/reports/single-tenant-external-unblock-package-report.json",
+      "exists": true,
+      "size": 6149,
+      "sha256": "fe4b8ec5751e590f6f0bbe6ef004b122edf45f8af1920e015fa6d9cfe4a609ec"
+    },
+    {
+      "id": "external_unblock_package_verify_report",
+      "path": ".xagent_runtime/reports/single-tenant-external-unblock-package-verify-report.json",
+      "exists": true,
+      "size": 631,
+      "sha256": "670a6d01940f935bdcfed98e007ff52e7a00c4179366a0f4a052cd85818f4676"
+    }
+  ],
+  "artifacts_count": 14,
+  "results": [
+    {
+      "name": "single_tenant_external_handoff_artifacts_present",
+      "status": "passed",
+      "details": {
+        "artifacts": 14
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_artifact_scope",
+      "status": "passed",
+      "details": {
+        "scope": "pre_receipt_handoff_index",
+        "artifacts": 14,
+        "excluded_post_receipt_artifact_ids": [
+          "external_delivery_receipt",
+          "external_delivery_receipt_contract",
+          "external_pr_ci_evidence_manifest",
+          "external_pr_ci_evidence_manifest_contract",
+          "external_upload_bundle_index",
+          "external_upload_bundle_index_contract",
+          "external_readiness_execution_checklist",
+          "external_readiness_execution_checklist_contract",
+          "external_pr_ci_upload_handoff",
+          "external_pr_ci_upload_handoff_markdown",
+          "external_pr_ci_upload_handoff_contract",
+          "external_delivery_status_report",
+          "external_delivery_status_report_markdown",
+          "external_delivery_status_report_contract"
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_generated_at_contract",
+      "status": "passed",
+      "details": {
+        "generated_at": "2026-06-07T19:56:09+00:00",
+        "sources": 6,
+        "latest": "2026-06-07T19:56:08+00:00"
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_audit_contract",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "ok": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_plan_contract",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "ok": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_markdown",
+      "status": "passed",
+      "details": {
+        "title_present": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_env_template",
+      "status": "passed",
+      "details": {
+        "required_env_vars": 0,
+        "env_names": 0
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_freeze_contract",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "ok": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_freeze_markdown",
+      "status": "passed",
+      "details": {
+        "title_present": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_freeze_env_template",
+      "status": "passed",
+      "details": {
+        "required_env_vars": 0,
+        "env_names": 0
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_freeze_contract_report",
+      "status": "passed",
+      "details": {
+        "status": "passed"
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_operator_checklist",
+      "status": "passed",
+      "details": {
+        "checklist_status": "blocked",
+        "contract_status": "passed"
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_package_archive",
+      "status": "passed",
+      "details": {
+        "archive_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
+        "checked_files": 10
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_package_reports",
+      "status": "passed",
+      "details": {
+        "archive_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
+        "checked_files": 10,
+        "package_report_generated_at": "2026-06-07T19:56:07+00:00",
+        "verify_report_generated_at": "2026-06-07T19:56:08+00:00"
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_package_source_manifest_alignment",
+      "status": "passed",
+      "details": {
+        "checked_source_files": 9,
+        "archive_manifest_sha256": "986839cf525baea66db6e2a0638f1f422837bdf360a839d5c073c90a61f212e7",
+        "package_report_manifest_sha256": "986839cf525baea66db6e2a0638f1f422837bdf360a839d5c073c90a61f212e7"
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_strict_run_optional_contract",
+      "status": "passed",
+      "details": {
+        "requested": false
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_release_digest_contract",
+      "status": "passed",
+      "details": {
+        "release_blockers": 0,
+        "root_cause_ids_count": 0,
+        "required_env_vars": 0,
+        "required_cli_args": 0,
+        "unblock_steps": 0,
+        "next_actions": 5
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_handoff_ready_policy",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "require_ready": false
+      },
+      "error": null
+    }
+  ],
+  "results_count": 18
+}
