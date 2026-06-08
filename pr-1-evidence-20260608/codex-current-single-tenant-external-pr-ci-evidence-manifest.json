@@ -1,12 +1,12 @@
 {
   "kind": "single_tenant_external_pr_ci_evidence_manifest",
   "version": 1,
-  "generated_at": "2026-06-08T02:36:50+00:00",
+  "generated_at": "2026-06-08T02:50:27+00:00",
   "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
   "receipt_path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
   "receipt_contract_path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt-contract.json",
-  "source_receipt_generated_at": "2026-06-08T02:36:49+00:00",
-  "source_handoff_generated_at": "2026-06-08T02:36:48+00:00",
+  "source_receipt_generated_at": "2026-06-08T02:50:19+00:00",
+  "source_handoff_generated_at": "2026-06-08T02:50:18+00:00",
   "ok": true,
   "status": "ready",
   "release_ready": true,
@@ -27,11 +27,11 @@
     "required_cli_args": 0,
     "pr_ci_required_env_vars": 0,
     "upload_artifacts": 5,
-    "package_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
-    "handoff_artifact_index_sha256": "52884f258489c1ef6fcbaf958df2d6cd09db9e19a739f4b22875fe5b8071f9f5",
+    "package_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
+    "handoff_artifact_index_sha256": "92d44afe9ada781d6008372f7a5a03d477372f3c57bd50676324ccff9bce3dad",
     "strict_run_contract_sha256": "ed3ea7af3f2618b24cd7c9c7714d5d760d561fa3a3105b87053abfbfb7ef284a",
-    "delivery_receipt_sha256": "93231b5e15f4d9afc90bb48a01099c27398f177077be427b7ae451adc7b22b6e",
-    "delivery_receipt_contract_sha256": "78918e3e7160fd43f2691afb5bba22dccedee498985693149dedbfba77ac82e2",
+    "delivery_receipt_sha256": "5cfb8142a35ea0fc3735f219e2e764d5feada73fb1fabc7410475a86982a49dd",
+    "delivery_receipt_contract_sha256": "ec31dae620eee571ab307047b80092b39b8c7b4322b746a0d4f3088bb06c2514",
     "receipt_contract_failed_checks": 0,
     "remote_artifacts_required": false,
     "remote_artifacts_url_present": true,
@@ -58,7 +58,7 @@
     "source_handoff_status": "ready",
     "source_handoff_ready": true,
     "source_handoff_error": null,
-    "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/3702fc4/pr-1-evidence-20260608",
+    "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/933b56a/pr-1-evidence-20260608",
     "present": true,
     "url_valid": true,
     "validation_error": null,
@@ -91,17 +91,17 @@
       "id": "external_unblock_package",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
       "exists": true,
-      "size": 15338,
-      "sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
-      "indexed_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b"
+      "size": 15341,
+      "sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
+      "indexed_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7"
     },
     {
       "id": "external_handoff_artifact_index",
       "path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
       "exists": true,
-      "size": 15271,
-      "sha256": "52884f258489c1ef6fcbaf958df2d6cd09db9e19a739f4b22875fe5b8071f9f5",
-      "indexed_sha256": "52884f258489c1ef6fcbaf958df2d6cd09db9e19a739f4b22875fe5b8071f9f5"
+      "size": 15257,
+      "sha256": "92d44afe9ada781d6008372f7a5a03d477372f3c57bd50676324ccff9bce3dad",
+      "indexed_sha256": "92d44afe9ada781d6008372f7a5a03d477372f3c57bd50676324ccff9bce3dad"
     },
     {
       "id": "external_release_strict_run_contract",
@@ -118,14 +118,14 @@
       "path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
       "exists": true,
       "size": 7555,
-      "sha256": "93231b5e15f4d9afc90bb48a01099c27398f177077be427b7ae451adc7b22b6e"
+      "sha256": "5cfb8142a35ea0fc3735f219e2e764d5feada73fb1fabc7410475a86982a49dd"
     },
     {
       "id": "external_delivery_receipt_contract",
       "path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt-contract.json",
       "exists": true,
       "size": 2269,
-      "sha256": "78918e3e7160fd43f2691afb5bba22dccedee498985693149dedbfba77ac82e2"
+      "sha256": "ec31dae620eee571ab307047b80092b39b8c7b4322b746a0d4f3088bb06c2514"
     }
   ],
   "upload_artifacts_count": 5

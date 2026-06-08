@@ -1,0 +1,99 @@
+{
+  "kind": "panda_agent_pr_1_evidence_repo_sync",
+  "source_upload_index": ".xagent_runtime/reports/single-tenant-external-upload-bundle-index.json",
+  "copied": 13,
+  "total": 13,
+  "artifacts": [
+    {
+      "id": "external_unblock_package",
+      "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
+      "filename": "codex-current-single-tenant-external-unblock-package.zip",
+      "copied": true,
+      "sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7"
+    },
+    {
+      "id": "external_unblock_package_report",
+      "path": ".xagent_runtime/reports/single-tenant-external-unblock-package-report.json",
+      "filename": "codex-current-single-tenant-external-unblock-package-report.json",
+      "copied": true,
+      "sha256": "4df002d3060a03fbf43a6fa5e8088f66fc26d18a34976b4eaabe4b374791a400"
+    },
+    {
+      "id": "external_unblock_package_verify_report",
+      "path": ".xagent_runtime/reports/single-tenant-external-unblock-package-verify-report.json",
+      "filename": "codex-current-single-tenant-external-unblock-package-verify-report.json",
+      "copied": true,
+      "sha256": "505d3cc240f6efa1e9f61a2b8a9020d6fc172863255ccff05f0febc0cb5d2320"
+    },
+    {
+      "id": "external_handoff_artifact_index",
+      "path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
+      "filename": "codex-current-single-tenant-external-handoff-artifacts.json",
+      "copied": true,
+      "sha256": "92d44afe9ada781d6008372f7a5a03d477372f3c57bd50676324ccff9bce3dad"
+    },
+    {
+      "id": "external_release_freeze_contract",
+      "path": ".xagent_runtime/reports/single-tenant-external-release-freeze-handoff-contract.json",
+      "filename": "codex-current-single-tenant-external-release-freeze-handoff-contract.json",
+      "copied": true,
+      "sha256": "8f743a61ce3714aed4bdfeeb443c7e4aae2b4cf7a4e189fd172ce546ee6b6559"
+    },
+    {
+      "id": "external_operator_checklist_contract",
+      "path": ".xagent_runtime/reports/single-tenant-external-operator-checklist-contract.json",
+      "filename": "codex-current-single-tenant-external-operator-checklist-contract.json",
+      "copied": true,
+      "sha256": "c2d47646ba8e26a96544c933ffff862153ac9d15fd85fe734a139fd7c83c9c3d"
+    },
+    {
+      "id": "external_release_strict_run_contract",
+      "path": ".xagent_runtime/reports/single-tenant-external-release-strict-run-contract.json",
+      "filename": "codex-current-single-tenant-external-release-strict-run-contract.json",
+      "copied": true,
+      "sha256": "ed3ea7af3f2618b24cd7c9c7714d5d760d561fa3a3105b87053abfbfb7ef284a"
+    },
+    {
+      "id": "external_delivery_receipt",
+      "path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
+      "filename": "codex-current-single-tenant-external-delivery-receipt.json",
+      "copied": true,
+      "sha256": "5cfb8142a35ea0fc3735f219e2e764d5feada73fb1fabc7410475a86982a49dd"
+    },
+    {
+      "id": "external_delivery_receipt_contract",
+      "path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt-contract.json",
+      "filename": "codex-current-single-tenant-external-delivery-receipt-contract.json",
+      "copied": true,
+      "sha256": "ec31dae620eee571ab307047b80092b39b8c7b4322b746a0d4f3088bb06c2514"
+    },
+    {
+      "id": "external_pr_ci_evidence_manifest",
+      "path": ".xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest.json",
+      "filename": "codex-current-single-tenant-external-pr-ci-evidence-manifest.json",
+      "copied": true,
+      "sha256": "f886444366aeee4a72365a06afa6f8f64e5e578c9256265ccd437f3aa7bde761"
+    },
+    {
+      "id": "external_pr_ci_evidence_manifest_contract",
+      "path": ".xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest-contract.json",
+      "filename": "codex-current-single-tenant-external-pr-ci-evidence-manifest-contract.json",
+      "copied": true,
+      "sha256": "e840776c1a5d6012907b7800b584fa5c12b992249ca4559822aad55ba2441c8a"
+    },
+    {
+      "id": "desktop_suite_current_full_package",
+      "path": ".xagent_runtime/reports/desktop-suite-current-full.zip",
+      "filename": "codex-current-desktop-suite-current-full.zip",
+      "copied": true,
+      "sha256": "7fa2bc2d88ea2171974d41f52e9312b76c5a7c14e328983fc7a51d1505238d62"
+    },
+    {
+      "id": "desktop_suite_package_budget",
+      "path": ".xagent_runtime/reports/desktop-suite-package-budget.json",
+      "filename": "codex-current-desktop-suite-package-budget.json",
+      "copied": true,
+      "sha256": "c45a7267d08bdbdd60f0a7f85277581030540ea7693f4f2bc789f9a674c30425"
+    }
+  ]
+}

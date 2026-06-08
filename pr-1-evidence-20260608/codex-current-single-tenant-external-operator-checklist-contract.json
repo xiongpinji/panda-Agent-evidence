@@ -1,0 +1,120 @@
+{
+  "kind": "single_tenant_external_operator_checklist_contract",
+  "version": 1,
+  "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
+  "checklist_path": ".xagent_runtime/reports/single-tenant-external-operator-checklist.json",
+  "ok": true,
+  "status": "passed",
+  "summary": {
+    "checklist_status": "blocked",
+    "release_ready": false,
+    "root_cause_ids": 0,
+    "provider_env_contracts": 0,
+    "failed_checks": 0
+  },
+  "results": [
+    {
+      "name": "single_tenant_external_operator_checklist_shape",
+      "status": "passed",
+      "details": {
+        "status": "blocked",
+        "ok": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_operator_checklist_summary",
+      "status": "passed",
+      "details": {
+        "release_ready": false,
+        "release_claim_allowed": false,
+        "items": 1,
+        "operator_inputs": 5,
+        "required_env_vars": 18,
+        "required_cli_args": 1,
+        "provider_env_contracts": 0,
+        "root_cause_ids": 0,
+        "commands": 2,
+        "expected_artifacts": 2,
+        "acceptance_criteria": 2
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_operator_checklist_handoff_consistency",
+      "status": "passed",
+      "details": {
+        "handoff_status": "ready",
+        "items": 0
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_operator_checklist_items",
+      "status": "passed",
+      "details": {
+        "items": [
+          "single_tenant_external_release_claim_aggregation"
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_operator_checklist_root_cause_diagnostics",
+      "status": "passed",
+      "details": {
+        "root_cause_summary": 0,
+        "root_cause_blockers": 0
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_operator_checklist_strict_execution_order",
+      "status": "passed",
+      "details": {
+        "steps": 12
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_operator_checklist_top_level_lists",
+      "status": "passed",
+      "details": {
+        "required_env_vars": 18,
+        "required_cli_args": 1,
+        "provider_env_contracts": 0,
+        "root_cause_ids": 0,
+        "commands": 2,
+        "expected_artifacts": 2,
+        "acceptance_criteria": 2
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_operator_checklist_secret_hygiene",
+      "status": "passed",
+      "details": {
+        "strings_checked": 153
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_operator_checklist_ready_policy",
+      "status": "passed",
+      "details": {
+        "status": "blocked",
+        "require_ready": false
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_operator_checklist_markdown",
+      "status": "passed",
+      "details": {
+        "required_tokens": 57
+      },
+      "error": null
+    }
+  ],
+  "results_count": 10
+}

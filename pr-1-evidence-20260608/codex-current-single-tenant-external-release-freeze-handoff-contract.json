@@ -1,0 +1,131 @@
+{
+  "kind": "single_tenant_external_release_freeze_handoff_contract",
+  "version": 1,
+  "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
+  "handoff_path": ".xagent_runtime/reports/single-tenant-external-release-freeze-handoff.json",
+  "ok": true,
+  "status": "passed",
+  "summary": {
+    "handoff_status": "ready",
+    "release_ready": true,
+    "root_cause_summary_count": 0,
+    "root_cause_blockers_count": 0,
+    "root_cause_ids": [],
+    "failed_checks": 0
+  },
+  "results": [
+    {
+      "name": "single_tenant_external_release_freeze_handoff_shape",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "ok": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_freeze_handoff_summary",
+      "status": "passed",
+      "details": {
+        "steps": 0,
+        "root_cause_summary_count": 0,
+        "root_cause_blockers_count": 0,
+        "root_cause_ids": [],
+        "operator_checklist": 0,
+        "required_env_vars": 0,
+        "required_cli_args": 0,
+        "provider_env_contracts": 0,
+        "env_matrix": 0,
+        "command_sequence": 19,
+        "expected_artifacts": 34,
+        "acceptance_criteria": 14,
+        "release_ready": true
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_freeze_blocker_surface",
+      "status": "passed",
+      "details": {
+        "blocker_ids": []
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_freeze_plan_consistency",
+      "status": "passed",
+      "details": {
+        "plan_status": "ready",
+        "steps": 0
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_freeze_operator_checklist",
+      "status": "passed",
+      "details": {
+        "items": []
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_freeze_env_matrix",
+      "status": "passed",
+      "details": {
+        "required_env_vars": 0
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_freeze_steps",
+      "status": "passed",
+      "details": {
+        "steps": []
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_freeze_commands",
+      "status": "passed",
+      "details": {
+        "commands": 19,
+        "require_ready_commands": 10
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_freeze_artifacts",
+      "status": "passed",
+      "details": {
+        "artifacts": 34
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_freeze_ready_policy",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "require_ready": false
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_freeze_markdown",
+      "status": "passed",
+      "details": {
+        "required_tokens": 43
+      },
+      "error": null
+    },
+    {
+      "name": "single_tenant_external_release_freeze_env_template",
+      "status": "passed",
+      "details": {
+        "required_env_vars": 0
+      },
+      "error": null
+    }
+  ],
+  "results_count": 12
+}

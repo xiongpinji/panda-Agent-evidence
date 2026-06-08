@@ -1,7 +1,7 @@
 {
   "kind": "single_tenant_external_handoff_artifacts",
   "version": 1,
-  "generated_at": "2026-06-08T02:36:48+00:00",
+  "generated_at": "2026-06-08T02:50:18+00:00",
   "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
   "artifact_scope": "pre_receipt_handoff_index",
   "artifact_scope_description": "Indexes external unblock, release-freeze, operator checklist, package, and optional strict-run evidence before delivery receipt, PR/CI manifest, upload bundle, and readiness execution checklist are generated.",
@@ -18,22 +18,22 @@
     "final_require_ready_not_passed"
   ],
   "claim_blockers_count": 4,
-  "package_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
+  "package_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
   "source_generated_at": {
     "count": 6,
     "values": {
-      "external_release_audit": "2026-06-08T02:36:44+00:00",
-      "external_unblock_plan": "2026-06-08T02:36:44+00:00",
-      "external_release_freeze_handoff": "2026-06-08T02:36:45+00:00",
-      "external_operator_checklist": "2026-06-08T02:36:46+00:00",
-      "external_unblock_package_report": "2026-06-08T02:36:47+00:00",
-      "external_unblock_package_verify_report": "2026-06-08T02:36:48+00:00"
+      "external_release_audit": "2026-06-08T02:50:12+00:00",
+      "external_unblock_plan": "2026-06-08T02:50:12+00:00",
+      "external_release_freeze_handoff": "2026-06-08T02:50:15+00:00",
+      "external_operator_checklist": "2026-06-08T02:50:16+00:00",
+      "external_unblock_package_report": "2026-06-08T02:50:17+00:00",
+      "external_unblock_package_verify_report": "2026-06-08T02:50:17+00:00"
     },
-    "latest_source": "external_unblock_package_verify_report",
-    "latest": "2026-06-08T02:36:48+00:00",
+    "latest_source": "external_unblock_package_report",
+    "latest": "2026-06-08T02:50:17+00:00",
     "invalid": {}
   },
-  "latest_source_generated_at": "2026-06-08T02:36:48+00:00",
+  "latest_source_generated_at": "2026-06-08T02:50:17+00:00",
   "release_blockers": 0,
   "root_cause_ids": [],
   "root_cause_ids_count": 0,
@@ -82,7 +82,7 @@
     "missing_artifacts": 0,
     "optional_artifacts": 0,
     "failed_checks": 0,
-    "package_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
+    "package_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
     "strict_run_optional_evidence": {
       "requested": false,
       "requested_ids": [],
@@ -100,15 +100,15 @@
     "source_generated_at": {
       "count": 6,
       "values": {
-        "external_release_audit": "2026-06-08T02:36:44+00:00",
-        "external_unblock_plan": "2026-06-08T02:36:44+00:00",
-        "external_release_freeze_handoff": "2026-06-08T02:36:45+00:00",
-        "external_operator_checklist": "2026-06-08T02:36:46+00:00",
-        "external_unblock_package_report": "2026-06-08T02:36:47+00:00",
-        "external_unblock_package_verify_report": "2026-06-08T02:36:48+00:00"
+        "external_release_audit": "2026-06-08T02:50:12+00:00",
+        "external_unblock_plan": "2026-06-08T02:50:12+00:00",
+        "external_release_freeze_handoff": "2026-06-08T02:50:15+00:00",
+        "external_operator_checklist": "2026-06-08T02:50:16+00:00",
+        "external_unblock_package_report": "2026-06-08T02:50:17+00:00",
+        "external_unblock_package_verify_report": "2026-06-08T02:50:17+00:00"
       },
-      "latest_source": "external_unblock_package_verify_report",
-      "latest": "2026-06-08T02:36:48+00:00",
+      "latest_source": "external_unblock_package_report",
+      "latest": "2026-06-08T02:50:17+00:00",
       "invalid": {}
     },
     "release_digest": {
@@ -139,14 +139,14 @@
       "path": ".xagent_runtime/reports/single-tenant-external-release-audit.json",
       "exists": true,
       "size": 13992,
-      "sha256": "4f3f2d9d5aa92bba3becef469f698013d0a5a1e185c67025d19713fc2b3e452c"
+      "sha256": "d3fb4e7b375f3d29c74681cf38cc0858b50818d56297be965b823de76087c0a7"
     },
     {
       "id": "external_unblock_plan",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-plan.json",
       "exists": true,
       "size": 1559,
-      "sha256": "a2aea720091903555ddb1fa16d3821af8c08c6667179844700c7b58471794894"
+      "sha256": "67414f33a3612b111e275d6e4dcfac6629a8eff496ac15703d2524059f39ad48"
     },
     {
       "id": "external_unblock_markdown",
@@ -167,7 +167,7 @@
       "path": ".xagent_runtime/reports/single-tenant-external-release-freeze-handoff.json",
       "exists": true,
       "size": 15046,
-      "sha256": "927a137a33bd2d732831c44fa26315186bc56be35b97d13c06c66cbc1e82c9e5"
+      "sha256": "40e77cb1bb5763c68c01f754cfba113219d1538081d53187165ebc9d189f1b54"
     },
     {
       "id": "external_release_freeze_markdown",
@@ -195,7 +195,7 @@
       "path": ".xagent_runtime/reports/single-tenant-external-operator-checklist.json",
       "exists": true,
       "size": 14812,
-      "sha256": "d1122a701fe7aaf2ee34cca7754125002f176cdd6a31424e967deca477fff01a"
+      "sha256": "69685b2b226daeb376d6c5f59ee9fd428e17ea1101f9351632f3c129a076a2c6"
     },
     {
       "id": "external_operator_checklist_markdown",
@@ -215,22 +215,22 @@
       "id": "external_unblock_package",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
       "exists": true,
-      "size": 15338,
-      "sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b"
+      "size": 15341,
+      "sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7"
     },
     {
       "id": "external_unblock_package_report",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-package-report.json",
       "exists": true,
       "size": 6149,
-      "sha256": "c27d0c89653df6b14e1a6bd0d990553e429f188ee02a876f8f6a0b54aac4e5b3"
+      "sha256": "4df002d3060a03fbf43a6fa5e8088f66fc26d18a34976b4eaabe4b374791a400"
     },
     {
       "id": "external_unblock_package_verify_report",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-package-verify-report.json",
       "exists": true,
       "size": 631,
-      "sha256": "049a6cfcdb373e4fcccc4e393ec16b505af6d8144d8ea73c530795176e0c1cd3"
+      "sha256": "505d3cc240f6efa1e9f61a2b8a9020d6fc172863255ccff05f0febc0cb5d2320"
     }
   ],
   "artifacts_count": 14,
@@ -272,9 +272,9 @@
       "name": "single_tenant_external_handoff_generated_at_contract",
       "status": "passed",
       "details": {
-        "generated_at": "2026-06-08T02:36:48+00:00",
+        "generated_at": "2026-06-08T02:50:18+00:00",
         "sources": 6,
-        "latest": "2026-06-08T02:36:48+00:00"
+        "latest": "2026-06-08T02:50:17+00:00"
       },
       "error": null
     },
@@ -360,7 +360,7 @@
       "name": "single_tenant_external_handoff_package_archive",
       "status": "passed",
       "details": {
-        "archive_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
+        "archive_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
         "checked_files": 10
       },
       "error": null
@@ -369,10 +369,10 @@
       "name": "single_tenant_external_handoff_package_reports",
       "status": "passed",
       "details": {
-        "archive_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
+        "archive_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
         "checked_files": 10,
-        "package_report_generated_at": "2026-06-08T02:36:47+00:00",
-        "verify_report_generated_at": "2026-06-08T02:36:48+00:00"
+        "package_report_generated_at": "2026-06-08T02:50:17+00:00",
+        "verify_report_generated_at": "2026-06-08T02:50:17+00:00"
       },
       "error": null
     },
@@ -381,8 +381,8 @@
       "status": "passed",
       "details": {
         "checked_source_files": 9,
-        "archive_manifest_sha256": "975afa42e46447d69c28059a5d794fb94585507dd39b3504485b82bdd593b581",
-        "package_report_manifest_sha256": "975afa42e46447d69c28059a5d794fb94585507dd39b3504485b82bdd593b581"
+        "archive_manifest_sha256": "4bac723bff0e53dee928c85160a18c3415ed178fd55edab42518b234683e4743",
+        "package_report_manifest_sha256": "4bac723bff0e53dee928c85160a18c3415ed178fd55edab42518b234683e4743"
       },
       "error": null
     },

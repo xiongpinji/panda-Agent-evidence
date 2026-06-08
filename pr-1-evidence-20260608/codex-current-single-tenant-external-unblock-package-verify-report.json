@@ -1,12 +1,12 @@
 {
   "kind": "single_tenant_external_unblock_package_verify_report",
   "version": 1,
-  "generated_at": "2026-06-08T02:36:48+00:00",
+  "generated_at": "2026-06-08T02:50:17+00:00",
   "ok": true,
   "status": "passed",
   "archive": "D:\\AI\u7f16\u7a0b\u5e93\\\u9879\u76ee\u5e93\\\u8fdb\u884c\u4e2d\u7684\u9879\u76ee\\GTP5 \u4f18\u5316\\GTP5 \u4f18\u5316\\X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212\\source\\.xagent_runtime\\reports\\single-tenant-external-unblock-package.zip",
-  "archive_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
-  "archive_size": 15338,
+  "archive_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
+  "archive_size": 15341,
   "checked_files": 10,
-  "manifest_created_at": "2026-06-08T02:36:47+00:00"
+  "manifest_created_at": "2026-06-08T02:50:17+00:00"
 }
