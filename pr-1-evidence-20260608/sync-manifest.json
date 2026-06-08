@@ -72,14 +72,14 @@
       "path": ".xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest.json",
       "filename": "codex-current-single-tenant-external-pr-ci-evidence-manifest.json",
       "copied": true,
-      "sha256": "f886444366aeee4a72365a06afa6f8f64e5e578c9256265ccd437f3aa7bde761"
+      "sha256": "ba1c8928da7a74df91fff3e2891c1c557b92bf223fd3ce7de825dff6cee6558b"
     },
     {
       "id": "external_pr_ci_evidence_manifest_contract",
       "path": ".xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest-contract.json",
       "filename": "codex-current-single-tenant-external-pr-ci-evidence-manifest-contract.json",
       "copied": true,
-      "sha256": "e840776c1a5d6012907b7800b584fa5c12b992249ca4559822aad55ba2441c8a"
+      "sha256": "7b0b2cfa3ce2efee41312e8b03828aefad2044cb21f0410045cd3dabb11a9951"
     },
     {
       "id": "desktop_suite_current_full_package",

@@ -1,7 +1,7 @@
 {
   "kind": "single_tenant_external_pr_ci_evidence_manifest",
   "version": 1,
-  "generated_at": "2026-06-08T02:50:27+00:00",
+  "generated_at": "2026-06-08T03:07:58+00:00",
   "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
   "receipt_path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
   "receipt_contract_path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt-contract.json",
@@ -58,7 +58,7 @@
     "source_handoff_status": "ready",
     "source_handoff_ready": true,
     "source_handoff_error": null,
-    "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/933b56a/pr-1-evidence-20260608",
+    "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/15f121a/pr-1-evidence-20260608",
     "present": true,
     "url_valid": true,
     "validation_error": null,
