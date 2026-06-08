@@ -35,8 +35,8 @@
       "name": "single_tenant_external_pr_ci_evidence_manifest_generated_at",
       "status": "passed",
       "details": {
-        "generated_at": "2026-06-08T04:00:25+00:00",
-        "source_receipt_generated_at": "2026-06-08T04:00:24+00:00"
+        "generated_at": "2026-06-08T04:11:32+00:00",
+        "source_receipt_generated_at": "2026-06-08T04:11:29+00:00"
       },
       "error": null
     },

@@ -3,29 +3,29 @@
     "id": "external_unblock_package",
     "upload_name": "codex-current-single-tenant-external-unblock-package.zip",
     "source": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
-    "size": 15338,
-    "sha256": "101bb1bd28eaa3f96031fbd9950a82839d78f7b9b008af6878d4d526e492c3cf"
+    "size": 15347,
+    "sha256": "37328ee5fb004bcb9d48e75dbeb8bc07f479ef1b7bfadf62e32b7b7e8772a52e"
   },
   {
     "id": "external_unblock_package_report",
     "upload_name": "codex-current-single-tenant-external-unblock-package-report.json",
     "source": ".xagent_runtime/reports/single-tenant-external-unblock-package-report.json",
     "size": 6149,
-    "sha256": "e078fc3b900a9b7bc9a301654f0b09e5a51b52eb4947a7b63f74fc298aaff99a"
+    "sha256": "8acf5b5f098c487574bc63012bac44fa499e7b3ead7390b3fba6d8ce35f357a4"
   },
   {
     "id": "external_unblock_package_verify_report",
     "upload_name": "codex-current-single-tenant-external-unblock-package-verify-report.json",
     "source": ".xagent_runtime/reports/single-tenant-external-unblock-package-verify-report.json",
     "size": 631,
-    "sha256": "2fcb961bae745c53f806c605b14b385973cacc4f2f56ba6e40bf3e3cf93b3b50"
+    "sha256": "8dcebf7a5edf0bd60960788a9e7c12be013b7ca1223137118c74eb4cf17688c7"
   },
   {
     "id": "external_handoff_artifact_index",
     "upload_name": "codex-current-single-tenant-external-handoff-artifacts.json",
     "source": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
-    "size": 15257,
-    "sha256": "1b231bd1dd3cb9040a6bfc05a9156a92d17c6d9151c0276ce5925611504be7f9"
+    "size": 15271,
+    "sha256": "3f2fe1b9715c8061c53b3056af5e550f899c06b2fbba9f49e9c2f414c022217a"
   },
   {
     "id": "external_release_freeze_contract",
@@ -52,29 +52,29 @@
     "id": "external_delivery_receipt",
     "upload_name": "codex-current-single-tenant-external-delivery-receipt.json",
     "source": ".xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
-    "size": 7552,
-    "sha256": "8fb9219bb269282e0e3a078ca4521ae2360026460b85a3972d3b638afb3b398d"
+    "size": 7555,
+    "sha256": "77dd3fc5d4fb4e47c037e9148f9672f7597e782e919d61ed93cae5e332ad1799"
   },
   {
     "id": "external_delivery_receipt_contract",
     "upload_name": "codex-current-single-tenant-external-delivery-receipt-contract.json",
     "source": ".xagent_runtime/reports/single-tenant-external-delivery-receipt-contract.json",
     "size": 2269,
-    "sha256": "0f99d2bf57b67bbd6ee42c2845d9b4dcc37f6613645114beeb20905ab480a169"
+    "sha256": "22751d4a8c06e0e64da588d4e901aad6e8d4f6e72ba9b25b60f74f34aad63455"
   },
   {
     "id": "external_pr_ci_evidence_manifest",
     "upload_name": "codex-current-single-tenant-external-pr-ci-evidence-manifest.json",
     "source": ".xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest.json",
-    "size": 6006,
-    "sha256": "5337ecf87dae74e4fdc79887b3140c7bc17ebe63a3c19c922c0db88602532871"
+    "size": 6009,
+    "sha256": "ebf25e8ad006d250a140e6808a79a15db35a652e73a233aa1c50a15c0d907217"
   },
   {
     "id": "external_pr_ci_evidence_manifest_contract",
     "upload_name": "codex-current-single-tenant-external-pr-ci-evidence-manifest-contract.json",
     "source": ".xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest-contract.json",
     "size": 2444,
-    "sha256": "c65327b008c2a807c898ac4f944b4b3e85a59a110935162f1602e892c4a6fa3f"
+    "sha256": "408115f83c11e0b28cbede5a0273190bd0a246ee3ee2fb4876d0995586c39470"
   },
   {
     "id": "desktop_suite_current_full_package",
