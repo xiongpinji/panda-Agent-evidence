@@ -1,7 +1,7 @@
 {
   "kind": "single_tenant_external_handoff_artifacts",
   "version": 1,
-  "generated_at": "2026-06-07T19:56:09+00:00",
+  "generated_at": "2026-06-08T01:51:51+00:00",
   "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
   "artifact_scope": "pre_receipt_handoff_index",
   "artifact_scope_description": "Indexes external unblock, release-freeze, operator checklist, package, and optional strict-run evidence before delivery receipt, PR/CI manifest, upload bundle, and readiness execution checklist are generated.",
@@ -18,22 +18,22 @@
     "final_require_ready_not_passed"
   ],
   "claim_blockers_count": 4,
-  "package_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
+  "package_sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4",
   "source_generated_at": {
     "count": 6,
     "values": {
-      "external_release_audit": "2026-06-07T19:56:01+00:00",
-      "external_unblock_plan": "2026-06-07T19:56:01+00:00",
-      "external_release_freeze_handoff": "2026-06-07T19:56:03+00:00",
-      "external_operator_checklist": "2026-06-07T19:56:05+00:00",
-      "external_unblock_package_report": "2026-06-07T19:56:07+00:00",
-      "external_unblock_package_verify_report": "2026-06-07T19:56:08+00:00"
+      "external_release_audit": "2026-06-08T01:51:32+00:00",
+      "external_unblock_plan": "2026-06-08T01:51:33+00:00",
+      "external_release_freeze_handoff": "2026-06-08T01:51:38+00:00",
+      "external_operator_checklist": "2026-06-08T01:51:41+00:00",
+      "external_unblock_package_report": "2026-06-08T01:51:44+00:00",
+      "external_unblock_package_verify_report": "2026-06-08T01:51:46+00:00"
     },
     "latest_source": "external_unblock_package_verify_report",
-    "latest": "2026-06-07T19:56:08+00:00",
+    "latest": "2026-06-08T01:51:46+00:00",
     "invalid": {}
   },
-  "latest_source_generated_at": "2026-06-07T19:56:08+00:00",
+  "latest_source_generated_at": "2026-06-08T01:51:46+00:00",
   "release_blockers": 0,
   "root_cause_ids": [],
   "root_cause_ids_count": 0,
@@ -47,10 +47,9 @@
     "No external release blockers remain.",
     "Run the strict external release runner and archive the delivery receipt, PR/CI manifest, upload bundle index, readiness checklist, PR/CI upload handoff, delivery status report, evidence collection pack, execution receipt, and final handoff artifact index.",
     "Use single-tenant-runtime-evidence.json to track the remaining P2-B release blockers.",
-    "Run the final audit gates in the prepared real Windows/Docker acceptance environment.",
-    "Resolve release environment preflight blockers, then rerun scripts/check_release_environment_preflight.py --strict."
+    "Run the final audit gates in the prepared real Windows/Docker acceptance environment."
   ],
-  "next_actions_count": 5,
+  "next_actions_count": 4,
   "summary": {
     "artifact_scope": "pre_receipt_handoff_index",
     "excluded_post_receipt_artifact_ids": [
@@ -83,7 +82,7 @@
     "missing_artifacts": 0,
     "optional_artifacts": 0,
     "failed_checks": 0,
-    "package_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
+    "package_sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4",
     "strict_run_optional_evidence": {
       "requested": false,
       "requested_ids": [],
@@ -101,15 +100,15 @@
     "source_generated_at": {
       "count": 6,
       "values": {
-        "external_release_audit": "2026-06-07T19:56:01+00:00",
-        "external_unblock_plan": "2026-06-07T19:56:01+00:00",
-        "external_release_freeze_handoff": "2026-06-07T19:56:03+00:00",
-        "external_operator_checklist": "2026-06-07T19:56:05+00:00",
-        "external_unblock_package_report": "2026-06-07T19:56:07+00:00",
-        "external_unblock_package_verify_report": "2026-06-07T19:56:08+00:00"
+        "external_release_audit": "2026-06-08T01:51:32+00:00",
+        "external_unblock_plan": "2026-06-08T01:51:33+00:00",
+        "external_release_freeze_handoff": "2026-06-08T01:51:38+00:00",
+        "external_operator_checklist": "2026-06-08T01:51:41+00:00",
+        "external_unblock_package_report": "2026-06-08T01:51:44+00:00",
+        "external_unblock_package_verify_report": "2026-06-08T01:51:46+00:00"
       },
       "latest_source": "external_unblock_package_verify_report",
-      "latest": "2026-06-07T19:56:08+00:00",
+      "latest": "2026-06-08T01:51:46+00:00",
       "invalid": {}
     },
     "release_digest": {
@@ -130,8 +129,7 @@
         "No external release blockers remain.",
         "Run the strict external release runner and archive the delivery receipt, PR/CI manifest, upload bundle index, readiness checklist, PR/CI upload handoff, delivery status report, evidence collection pack, execution receipt, and final handoff artifact index.",
         "Use single-tenant-runtime-evidence.json to track the remaining P2-B release blockers.",
-        "Run the final audit gates in the prepared real Windows/Docker acceptance environment.",
-        "Resolve release environment preflight blockers, then rerun scripts/check_release_environment_preflight.py --strict."
+        "Run the final audit gates in the prepared real Windows/Docker acceptance environment."
       ]
     }
   },
@@ -140,15 +138,15 @@
       "id": "external_release_audit",
       "path": ".xagent_runtime/reports/single-tenant-external-release-audit.json",
       "exists": true,
-      "size": 14244,
-      "sha256": "ef1ddf02eb289cb60df64259b43fb389b3e683856a4af8e12e2ea3e19857cdfe"
+      "size": 13992,
+      "sha256": "3b732d7aedab580d213ef14fee9ac0340a30f985dbfc30a5d11f6fb7851dc857"
     },
     {
       "id": "external_unblock_plan",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-plan.json",
       "exists": true,
       "size": 1559,
-      "sha256": "5d727d2e40848ed5b6c4e7c8dacba69754452c53d1ff16ea4adab4666fbba550"
+      "sha256": "c2632034298079b3510a10335e55241fdb19df5b0bdfeb5f6e05e59251cc1488"
     },
     {
       "id": "external_unblock_markdown",
@@ -169,7 +167,7 @@
       "path": ".xagent_runtime/reports/single-tenant-external-release-freeze-handoff.json",
       "exists": true,
       "size": 15046,
-      "sha256": "172b728663779d088c233cff54e72140f28d542905fc2e5275e42cae05c2c84d"
+      "sha256": "cd61fe02a2baaf0ba5ab1edd621bdfdd0179cdbba9c3de38250be5eb57446350"
     },
     {
       "id": "external_release_freeze_markdown",
@@ -197,7 +195,7 @@
       "path": ".xagent_runtime/reports/single-tenant-external-operator-checklist.json",
       "exists": true,
       "size": 17230,
-      "sha256": "4feb7381802fa6007e7798b2699e2c15dfdc0ac3ccb25abee84cbd1106edbd4f"
+      "sha256": "8088066cfa66f512c45025577c4c234f01237c63b3b10ad76f9a0f9043780838"
     },
     {
       "id": "external_operator_checklist_markdown",
@@ -217,22 +215,22 @@
       "id": "external_unblock_package",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
       "exists": true,
-      "size": 15687,
-      "sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4"
+      "size": 15691,
+      "sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4"
     },
     {
       "id": "external_unblock_package_report",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-package-report.json",
       "exists": true,
       "size": 6149,
-      "sha256": "fe4b8ec5751e590f6f0bbe6ef004b122edf45f8af1920e015fa6d9cfe4a609ec"
+      "sha256": "9a4f2ab4219b1be11d7b96884520df2ab63efa1906e44f2b9f3a667c67f883d6"
     },
     {
       "id": "external_unblock_package_verify_report",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-package-verify-report.json",
       "exists": true,
       "size": 631,
-      "sha256": "670a6d01940f935bdcfed98e007ff52e7a00c4179366a0f4a052cd85818f4676"
+      "sha256": "d126470c3af09ec61147bea0868bfd306085e1d5b80108e07af9ab015f2b14e1"
     }
   ],
   "artifacts_count": 14,
@@ -274,9 +272,9 @@
       "name": "single_tenant_external_handoff_generated_at_contract",
       "status": "passed",
       "details": {
-        "generated_at": "2026-06-07T19:56:09+00:00",
+        "generated_at": "2026-06-08T01:51:51+00:00",
         "sources": 6,
-        "latest": "2026-06-07T19:56:08+00:00"
+        "latest": "2026-06-08T01:51:46+00:00"
       },
       "error": null
     },
@@ -362,7 +360,7 @@
       "name": "single_tenant_external_handoff_package_archive",
       "status": "passed",
       "details": {
-        "archive_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
+        "archive_sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4",
         "checked_files": 10
       },
       "error": null
@@ -371,10 +369,10 @@
       "name": "single_tenant_external_handoff_package_reports",
       "status": "passed",
       "details": {
-        "archive_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
+        "archive_sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4",
         "checked_files": 10,
-        "package_report_generated_at": "2026-06-07T19:56:07+00:00",
-        "verify_report_generated_at": "2026-06-07T19:56:08+00:00"
+        "package_report_generated_at": "2026-06-08T01:51:44+00:00",
+        "verify_report_generated_at": "2026-06-08T01:51:46+00:00"
       },
       "error": null
     },
@@ -383,8 +381,8 @@
       "status": "passed",
       "details": {
         "checked_source_files": 9,
-        "archive_manifest_sha256": "986839cf525baea66db6e2a0638f1f422837bdf360a839d5c073c90a61f212e7",
-        "package_report_manifest_sha256": "986839cf525baea66db6e2a0638f1f422837bdf360a839d5c073c90a61f212e7"
+        "archive_manifest_sha256": "c81bf4ec98a7adf3f7548b6352f1216361ffea9b1041a6a1d9c19eeb58ee8ab3",
+        "package_report_manifest_sha256": "c81bf4ec98a7adf3f7548b6352f1216361ffea9b1041a6a1d9c19eeb58ee8ab3"
       },
       "error": null
     },
@@ -405,7 +403,7 @@
         "required_env_vars": 0,
         "required_cli_args": 0,
         "unblock_steps": 0,
-        "next_actions": 5
+        "next_actions": 4
       },
       "error": null
     },

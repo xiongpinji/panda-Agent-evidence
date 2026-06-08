@@ -1,11 +1,11 @@
 {
   "kind": "single_tenant_external_delivery_receipt",
   "version": 1,
-  "generated_at": "2026-06-07T19:56:10+00:00",
+  "generated_at": "2026-06-08T01:51:53+00:00",
   "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
   "handoff_artifacts_path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
   "remote_handoff_path": ".xagent_runtime/reports/remote-delivery-handoff.json",
-  "source_handoff_generated_at": "2026-06-07T19:56:09+00:00",
+  "source_handoff_generated_at": "2026-06-08T01:51:51+00:00",
   "ok": true,
   "status": "ready",
   "release_ready": true,
@@ -23,9 +23,9 @@
     "blocker_details": 0,
     "root_cause_ids": 0,
     "root_cause_ids_count": 0,
-    "package_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
-    "handoff_artifact_index_sha256": "60232fe87f58377be8a544124bf490834456d7da8aad7c326f5490c54427783c",
-    "strict_run_contract_sha256": "40003025de6cf10e7fcbd5f1eff0bb917c109e928c1a5ef8e0aef1a40dbd4ce7",
+    "package_sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4",
+    "handoff_artifact_index_sha256": "6cecf63015de26e9ba21f4d48efe1376831eb192e2404107db6add334a394a93",
+    "strict_run_contract_sha256": "4f067084e250fe30636f6220e461a0dcecb447ae4555f30dc72696da700b7b9f",
     "strict_run_contract_included": true,
     "strict_run_contract_required": false,
     "remote_artifacts_required": false,
@@ -37,17 +37,17 @@
     "id": "external_unblock_package",
     "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
     "exists": true,
-    "size": 15687,
-    "sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
-    "indexed_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
-    "summary_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4"
+    "size": 15691,
+    "sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4",
+    "indexed_sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4",
+    "summary_sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4"
   },
   "handoff_artifact_index": {
     "id": "external_handoff_artifact_index",
     "path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
     "exists": true,
-    "size": 15523,
-    "sha256": "60232fe87f58377be8a544124bf490834456d7da8aad7c326f5490c54427783c"
+    "size": 15271,
+    "sha256": "6cecf63015de26e9ba21f4d48efe1376831eb192e2404107db6add334a394a93"
   },
   "strict_run_contract": {
     "id": "external_release_strict_run_contract",
@@ -55,10 +55,10 @@
     "included": true,
     "required": false,
     "exists": true,
-    "size": 11598,
-    "sha256": "40003025de6cf10e7fcbd5f1eff0bb917c109e928c1a5ef8e0aef1a40dbd4ce7",
-    "ok": false,
-    "status": "failed",
+    "size": 7089,
+    "sha256": "4f067084e250fe30636f6220e461a0dcecb447ae4555f30dc72696da700b7b9f",
+    "ok": true,
+    "status": "passed",
     "load_error": null,
     "summary": {
       "report_status": "blocked",
@@ -67,35 +67,20 @@
       "execution_ready": false,
       "release_claim_allowed": false,
       "claim_blockers": [
-        "remote_provider_evidence is environment_blocked at .xagent_runtime/reports/remote-provider-evidence-handoff.json",
-        "release_environment_preflight is environment_blocked at .xagent_runtime/reports/release-environment-preflight.json",
-        "remote_delivery_handoff is environment_blocked at .xagent_runtime/reports/remote-delivery-handoff.json",
         "deliverability_task_board_sync is environment_blocked at .xagent_runtime/reports/deliverability-task-board-sync.json",
-        "single_tenant_runtime_evidence is environment_blocked at .xagent_runtime/reports/single-tenant-runtime-evidence.json",
-        "single_tenant_release_handoff is environment_blocked at .xagent_runtime/reports/single-tenant-release-handoff.json",
-        "single_tenant_release_handoff_contract is blocked",
-        "single_tenant_external_release_audit is environment_blocked at .xagent_runtime/reports/single-tenant-external-release-audit.json",
-        "single_tenant_external_unblock_plan is environment_blocked at .xagent_runtime/reports/single-tenant-external-unblock-plan.json",
-        "single_tenant_external_unblock_plan_contract is blocked",
-        "single_tenant_external_release_freeze_handoff is environment_blocked at .xagent_runtime/reports/single-tenant-external-release-freeze-handoff.json",
-        "single_tenant_external_delivery_receipt is environment_blocked at .xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
         "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json",
         "single_tenant_external_execution_receipt_assist is environment_blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist.json",
-        "single_tenant_external_execution_receipt_assist_contract is blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist-contract.json",
-        "single_tenant_external_pr_ci_evidence_manifest is environment_blocked at .xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest.json",
-        "single_tenant_external_upload_bundle_index is environment_blocked at .xagent_runtime/reports/single-tenant-external-upload-bundle-index.json",
-        "single_tenant_external_readiness_execution_checklist is environment_blocked at .xagent_runtime/reports/single-tenant-external-readiness-execution-checklist.json",
-        "single_tenant_external_pr_ci_upload_handoff is environment_blocked at .xagent_runtime/reports/single-tenant-external-pr-ci-upload-handoff.json"
+        "single_tenant_external_execution_receipt_assist_contract is blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist-contract.json"
       ],
-      "release_progress_percent": 44,
-      "remaining_release_blockers": 19,
-      "claim_blockers_count": 19,
+      "release_progress_percent": 88,
+      "remaining_release_blockers": 4,
+      "claim_blockers_count": 4,
       "required_env_vars_count": 18,
       "required_cli_args_count": 1,
       "root_cause_ids_count": 8,
       "missing_final_artifacts_count": 0,
       "release_ready": false,
-      "failed_checks": 1
+      "failed_checks": 0
     },
     "report_path": ".xagent_runtime/reports/single-tenant-external-release-strict-run.json"
   },
@@ -120,7 +105,7 @@
     "source_handoff_status": "ready",
     "source_handoff_ready": true,
     "source_handoff_error": null,
-    "url": "https://github.com/xiongpinji/panda-Agent/releases/tag/pr-1-evidence-20260608",
+    "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608",
     "present": true,
     "url_valid": true,
     "validation_error": null,
@@ -134,26 +119,25 @@
     "No external release blockers remain.",
     "Run the strict external release runner and archive the delivery receipt, PR/CI manifest, upload bundle index, readiness checklist, PR/CI upload handoff, delivery status report, evidence collection pack, execution receipt, and final handoff artifact index.",
     "Use single-tenant-runtime-evidence.json to track the remaining P2-B release blockers.",
-    "Run the final audit gates in the prepared real Windows/Docker acceptance environment.",
-    "Resolve release environment preflight blockers, then rerun scripts/check_release_environment_preflight.py --strict."
+    "Run the final audit gates in the prepared real Windows/Docker acceptance environment."
   ],
-  "next_actions_count": 5,
+  "next_actions_count": 4,
   "artifacts": [
     {
       "id": "external_unblock_package",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
       "exists": true,
-      "size": 15687,
-      "sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
-      "indexed_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4",
-      "summary_sha256": "a0621c4ecef8ec14b061d296fc0132f8b92a3f53a40a46c3b96bd38756fe20f4"
+      "size": 15691,
+      "sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4",
+      "indexed_sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4",
+      "summary_sha256": "f92a54d36390373225a92d509320aa026f79a72ec318ffa2dc72b2fab6fdacb4"
     },
     {
       "id": "external_handoff_artifact_index",
       "path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
       "exists": true,
-      "size": 15523,
-      "sha256": "60232fe87f58377be8a544124bf490834456d7da8aad7c326f5490c54427783c"
+      "size": 15271,
+      "sha256": "6cecf63015de26e9ba21f4d48efe1376831eb192e2404107db6add334a394a93"
     },
     {
       "id": "external_release_strict_run_contract",
@@ -161,10 +145,10 @@
       "included": true,
       "required": false,
       "exists": true,
-      "size": 11598,
-      "sha256": "40003025de6cf10e7fcbd5f1eff0bb917c109e928c1a5ef8e0aef1a40dbd4ce7",
-      "ok": false,
-      "status": "failed",
+      "size": 7089,
+      "sha256": "4f067084e250fe30636f6220e461a0dcecb447ae4555f30dc72696da700b7b9f",
+      "ok": true,
+      "status": "passed",
       "load_error": null,
       "summary": {
         "report_status": "blocked",
@@ -173,35 +157,20 @@
         "execution_ready": false,
         "release_claim_allowed": false,
         "claim_blockers": [
-          "remote_provider_evidence is environment_blocked at .xagent_runtime/reports/remote-provider-evidence-handoff.json",
-          "release_environment_preflight is environment_blocked at .xagent_runtime/reports/release-environment-preflight.json",
-          "remote_delivery_handoff is environment_blocked at .xagent_runtime/reports/remote-delivery-handoff.json",
           "deliverability_task_board_sync is environment_blocked at .xagent_runtime/reports/deliverability-task-board-sync.json",
-          "single_tenant_runtime_evidence is environment_blocked at .xagent_runtime/reports/single-tenant-runtime-evidence.json",
-          "single_tenant_release_handoff is environment_blocked at .xagent_runtime/reports/single-tenant-release-handoff.json",
-          "single_tenant_release_handoff_contract is blocked",
-          "single_tenant_external_release_audit is environment_blocked at .xagent_runtime/reports/single-tenant-external-release-audit.json",
-          "single_tenant_external_unblock_plan is environment_blocked at .xagent_runtime/reports/single-tenant-external-unblock-plan.json",
-          "single_tenant_external_unblock_plan_contract is blocked",
-          "single_tenant_external_release_freeze_handoff is environment_blocked at .xagent_runtime/reports/single-tenant-external-release-freeze-handoff.json",
-          "single_tenant_external_delivery_receipt is environment_blocked at .xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
           "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json",
           "single_tenant_external_execution_receipt_assist is environment_blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist.json",
-          "single_tenant_external_execution_receipt_assist_contract is blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist-contract.json",
-          "single_tenant_external_pr_ci_evidence_manifest is environment_blocked at .xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest.json",
-          "single_tenant_external_upload_bundle_index is environment_blocked at .xagent_runtime/reports/single-tenant-external-upload-bundle-index.json",
-          "single_tenant_external_readiness_execution_checklist is environment_blocked at .xagent_runtime/reports/single-tenant-external-readiness-execution-checklist.json",
-          "single_tenant_external_pr_ci_upload_handoff is environment_blocked at .xagent_runtime/reports/single-tenant-external-pr-ci-upload-handoff.json"
+          "single_tenant_external_execution_receipt_assist_contract is blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist-contract.json"
         ],
-        "release_progress_percent": 44,
-        "remaining_release_blockers": 19,
-        "claim_blockers_count": 19,
+        "release_progress_percent": 88,
+        "remaining_release_blockers": 4,
+        "claim_blockers_count": 4,
         "required_env_vars_count": 18,
         "required_cli_args_count": 1,
         "root_cause_ids_count": 8,
         "missing_final_artifacts_count": 0,
         "release_ready": false,
-        "failed_checks": 1
+        "failed_checks": 0
       },
       "report_path": ".xagent_runtime/reports/single-tenant-external-release-strict-run.json"
     }
