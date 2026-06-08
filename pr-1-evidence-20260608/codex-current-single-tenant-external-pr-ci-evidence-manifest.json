@@ -1,12 +1,12 @@
 {
   "kind": "single_tenant_external_pr_ci_evidence_manifest",
   "version": 1,
-  "generated_at": "2026-06-08T03:13:07+00:00",
+  "generated_at": "2026-06-08T03:32:08+00:00",
   "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
   "receipt_path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
   "receipt_contract_path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt-contract.json",
-  "source_receipt_generated_at": "2026-06-08T02:50:19+00:00",
-  "source_handoff_generated_at": "2026-06-08T02:50:18+00:00",
+  "source_receipt_generated_at": "2026-06-08T03:32:05+00:00",
+  "source_handoff_generated_at": "2026-06-08T03:32:04+00:00",
   "ok": true,
   "status": "ready",
   "release_ready": true,
@@ -27,11 +27,11 @@
     "required_cli_args": 0,
     "pr_ci_required_env_vars": 0,
     "upload_artifacts": 5,
-    "package_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
-    "handoff_artifact_index_sha256": "92d44afe9ada781d6008372f7a5a03d477372f3c57bd50676324ccff9bce3dad",
+    "package_sha256": "4467835984952bf009682d319f849debba0527b226a0892d0b0bf7f5568e6470",
+    "handoff_artifact_index_sha256": "625c08182a1183ebad640281c0552a5e63eeee8b19c9de92a9d82a9c786db7f6",
     "strict_run_contract_sha256": "ed3ea7af3f2618b24cd7c9c7714d5d760d561fa3a3105b87053abfbfb7ef284a",
-    "delivery_receipt_sha256": "5cfb8142a35ea0fc3735f219e2e764d5feada73fb1fabc7410475a86982a49dd",
-    "delivery_receipt_contract_sha256": "ec31dae620eee571ab307047b80092b39b8c7b4322b746a0d4f3088bb06c2514",
+    "delivery_receipt_sha256": "ab47b0d726529ab1c385ca73d4653be807c10db743dccbc5ca1ba1bed41d9cac",
+    "delivery_receipt_contract_sha256": "7a698e647103f145d0ffb80f65449160b7128376db3fe645936f65b494f15c36",
     "receipt_contract_failed_checks": 0,
     "remote_artifacts_required": false,
     "remote_artifacts_url_present": true,
@@ -91,17 +91,17 @@
       "id": "external_unblock_package",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
       "exists": true,
-      "size": 15341,
-      "sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
-      "indexed_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7"
+      "size": 15347,
+      "sha256": "4467835984952bf009682d319f849debba0527b226a0892d0b0bf7f5568e6470",
+      "indexed_sha256": "4467835984952bf009682d319f849debba0527b226a0892d0b0bf7f5568e6470"
     },
     {
       "id": "external_handoff_artifact_index",
       "path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
       "exists": true,
       "size": 15257,
-      "sha256": "92d44afe9ada781d6008372f7a5a03d477372f3c57bd50676324ccff9bce3dad",
-      "indexed_sha256": "92d44afe9ada781d6008372f7a5a03d477372f3c57bd50676324ccff9bce3dad"
+      "sha256": "625c08182a1183ebad640281c0552a5e63eeee8b19c9de92a9d82a9c786db7f6",
+      "indexed_sha256": "625c08182a1183ebad640281c0552a5e63eeee8b19c9de92a9d82a9c786db7f6"
     },
     {
       "id": "external_release_strict_run_contract",
@@ -117,15 +117,15 @@
       "id": "external_delivery_receipt",
       "path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
       "exists": true,
-      "size": 7555,
-      "sha256": "5cfb8142a35ea0fc3735f219e2e764d5feada73fb1fabc7410475a86982a49dd"
+      "size": 7552,
+      "sha256": "ab47b0d726529ab1c385ca73d4653be807c10db743dccbc5ca1ba1bed41d9cac"
     },
     {
       "id": "external_delivery_receipt_contract",
       "path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt-contract.json",
       "exists": true,
       "size": 2269,
-      "sha256": "ec31dae620eee571ab307047b80092b39b8c7b4322b746a0d4f3088bb06c2514"
+      "sha256": "7a698e647103f145d0ffb80f65449160b7128376db3fe645936f65b494f15c36"
     }
   ],
   "upload_artifacts_count": 5

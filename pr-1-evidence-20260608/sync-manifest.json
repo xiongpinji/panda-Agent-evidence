@@ -1,99 +1,84 @@
 {
-  "kind": "panda_agent_pr_1_evidence_repo_sync",
-  "source_upload_index": ".xagent_runtime/reports/single-tenant-external-upload-bundle-index.json",
-  "copied": 13,
-  "total": 13,
+  "source_root": "D:\\AI编程库\\项目库\\进行中的项目\\GTP5 优化\\GTP5 优化\\X-Agent 原创内核计划\\source",
+  "generated_at": "2026-06-08T03:34:49Z",
   "artifacts": [
     {
       "id": "external_unblock_package",
-      "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
-      "filename": "codex-current-single-tenant-external-unblock-package.zip",
-      "copied": true,
-      "sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7"
+      "file": "codex-current-single-tenant-external-unblock-package.zip",
+      "sha256": "4467835984952bf009682d319f849debba0527b226a0892d0b0bf7f5568e6470",
+      "size": 15347,
+      "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608/codex-current-single-tenant-external-unblock-package.zip"
     },
     {
       "id": "external_unblock_package_report",
-      "path": ".xagent_runtime/reports/single-tenant-external-unblock-package-report.json",
-      "filename": "codex-current-single-tenant-external-unblock-package-report.json",
-      "copied": true,
-      "sha256": "4df002d3060a03fbf43a6fa5e8088f66fc26d18a34976b4eaabe4b374791a400"
+      "file": "codex-current-single-tenant-external-unblock-package-report.json",
+      "sha256": "3c1213d6a54b5b355ce95114e5d375757992bd0ce28a905e7c9694360aee5863",
+      "size": 6149,
+      "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608/codex-current-single-tenant-external-unblock-package-report.json"
     },
     {
       "id": "external_unblock_package_verify_report",
-      "path": ".xagent_runtime/reports/single-tenant-external-unblock-package-verify-report.json",
-      "filename": "codex-current-single-tenant-external-unblock-package-verify-report.json",
-      "copied": true,
-      "sha256": "505d3cc240f6efa1e9f61a2b8a9020d6fc172863255ccff05f0febc0cb5d2320"
+      "file": "codex-current-single-tenant-external-unblock-package-verify-report.json",
+      "sha256": "ead28cb76128279c054b798b5caf7068735acd864f36a19e5f234305e3c9390e",
+      "size": 631,
+      "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608/codex-current-single-tenant-external-unblock-package-verify-report.json"
     },
     {
       "id": "external_handoff_artifact_index",
-      "path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
-      "filename": "codex-current-single-tenant-external-handoff-artifacts.json",
-      "copied": true,
-      "sha256": "92d44afe9ada781d6008372f7a5a03d477372f3c57bd50676324ccff9bce3dad"
-    },
-    {
-      "id": "external_release_freeze_contract",
-      "path": ".xagent_runtime/reports/single-tenant-external-release-freeze-handoff-contract.json",
-      "filename": "codex-current-single-tenant-external-release-freeze-handoff-contract.json",
-      "copied": true,
-      "sha256": "8f743a61ce3714aed4bdfeeb443c7e4aae2b4cf7a4e189fd172ce546ee6b6559"
-    },
-    {
-      "id": "external_operator_checklist_contract",
-      "path": ".xagent_runtime/reports/single-tenant-external-operator-checklist-contract.json",
-      "filename": "codex-current-single-tenant-external-operator-checklist-contract.json",
-      "copied": true,
-      "sha256": "c2d47646ba8e26a96544c933ffff862153ac9d15fd85fe734a139fd7c83c9c3d"
+      "file": "codex-current-single-tenant-external-handoff-artifacts.json",
+      "sha256": "625c08182a1183ebad640281c0552a5e63eeee8b19c9de92a9d82a9c786db7f6",
+      "size": 15257,
+      "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608/codex-current-single-tenant-external-handoff-artifacts.json"
     },
     {
       "id": "external_release_strict_run_contract",
-      "path": ".xagent_runtime/reports/single-tenant-external-release-strict-run-contract.json",
-      "filename": "codex-current-single-tenant-external-release-strict-run-contract.json",
-      "copied": true,
-      "sha256": "ed3ea7af3f2618b24cd7c9c7714d5d760d561fa3a3105b87053abfbfb7ef284a"
+      "file": "codex-current-single-tenant-external-release-strict-run-contract.json",
+      "sha256": "ed3ea7af3f2618b24cd7c9c7714d5d760d561fa3a3105b87053abfbfb7ef284a",
+      "size": 6468,
+      "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608/codex-current-single-tenant-external-release-strict-run-contract.json"
     },
     {
       "id": "external_delivery_receipt",
-      "path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt.json",
-      "filename": "codex-current-single-tenant-external-delivery-receipt.json",
-      "copied": true,
-      "sha256": "5cfb8142a35ea0fc3735f219e2e764d5feada73fb1fabc7410475a86982a49dd"
+      "file": "codex-current-single-tenant-external-delivery-receipt.json",
+      "sha256": "ab47b0d726529ab1c385ca73d4653be807c10db743dccbc5ca1ba1bed41d9cac",
+      "size": 7552,
+      "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608/codex-current-single-tenant-external-delivery-receipt.json"
     },
     {
       "id": "external_delivery_receipt_contract",
-      "path": ".xagent_runtime/reports/single-tenant-external-delivery-receipt-contract.json",
-      "filename": "codex-current-single-tenant-external-delivery-receipt-contract.json",
-      "copied": true,
-      "sha256": "ec31dae620eee571ab307047b80092b39b8c7b4322b746a0d4f3088bb06c2514"
+      "file": "codex-current-single-tenant-external-delivery-receipt-contract.json",
+      "sha256": "7a698e647103f145d0ffb80f65449160b7128376db3fe645936f65b494f15c36",
+      "size": 2269,
+      "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608/codex-current-single-tenant-external-delivery-receipt-contract.json"
     },
     {
       "id": "external_pr_ci_evidence_manifest",
-      "path": ".xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest.json",
-      "filename": "codex-current-single-tenant-external-pr-ci-evidence-manifest.json",
-      "copied": true,
-      "sha256": "f085649e25291a049b699516d589a5dd1d7ae26d494f3c2d7a9a483bd8585741"
+      "file": "codex-current-single-tenant-external-pr-ci-evidence-manifest.json",
+      "sha256": "6e1060daf1891f90f414d866b02658ba92f00c921139cd246f7393ed407b17be",
+      "size": 6006,
+      "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608/codex-current-single-tenant-external-pr-ci-evidence-manifest.json"
     },
     {
       "id": "external_pr_ci_evidence_manifest_contract",
-      "path": ".xagent_runtime/reports/single-tenant-external-pr-ci-evidence-manifest-contract.json",
-      "filename": "codex-current-single-tenant-external-pr-ci-evidence-manifest-contract.json",
-      "copied": true,
-      "sha256": "24b93c6f6bf0277b8a176e10706997a47741309f55f909fc6a328f892ae7bb10"
+      "file": "codex-current-single-tenant-external-pr-ci-evidence-manifest-contract.json",
+      "sha256": "1a9ea341c272dc1b6a4ec32a03e20af1124dee94899cb035e64d842116e8e335",
+      "size": 2444,
+      "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608/codex-current-single-tenant-external-pr-ci-evidence-manifest-contract.json"
     },
     {
       "id": "desktop_suite_current_full_package",
-      "path": ".xagent_runtime/reports/desktop-suite-current-full.zip",
-      "filename": "codex-current-desktop-suite-current-full.zip",
-      "copied": true,
-      "sha256": "7fa2bc2d88ea2171974d41f52e9312b76c5a7c14e328983fc7a51d1505238d62"
+      "file": "codex-current-desktop-suite-current-full.zip",
+      "sha256": "7fa2bc2d88ea2171974d41f52e9312b76c5a7c14e328983fc7a51d1505238d62",
+      "size": 632629,
+      "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608/codex-current-desktop-suite-current-full.zip"
     },
     {
       "id": "desktop_suite_package_budget",
-      "path": ".xagent_runtime/reports/desktop-suite-package-budget.json",
-      "filename": "codex-current-desktop-suite-package-budget.json",
-      "copied": true,
-      "sha256": "c45a7267d08bdbdd60f0a7f85277581030540ea7693f4f2bc789f9a674c30425"
+      "file": "codex-current-desktop-suite-package-budget.json",
+      "sha256": "c45a7267d08bdbdd60f0a7f85277581030540ea7693f4f2bc789f9a674c30425",
+      "size": 730,
+      "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608/codex-current-desktop-suite-package-budget.json"
     }
-  ]
+  ],
+  "raw_base_url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608"
 }

@@ -1,11 +1,11 @@
 {
   "kind": "single_tenant_external_delivery_receipt",
   "version": 1,
-  "generated_at": "2026-06-08T02:50:19+00:00",
+  "generated_at": "2026-06-08T03:32:05+00:00",
   "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
   "handoff_artifacts_path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
   "remote_handoff_path": ".xagent_runtime/reports/remote-delivery-handoff.json",
-  "source_handoff_generated_at": "2026-06-08T02:50:18+00:00",
+  "source_handoff_generated_at": "2026-06-08T03:32:04+00:00",
   "ok": true,
   "status": "ready",
   "release_ready": true,
@@ -23,8 +23,8 @@
     "blocker_details": 0,
     "root_cause_ids": 0,
     "root_cause_ids_count": 0,
-    "package_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
-    "handoff_artifact_index_sha256": "92d44afe9ada781d6008372f7a5a03d477372f3c57bd50676324ccff9bce3dad",
+    "package_sha256": "4467835984952bf009682d319f849debba0527b226a0892d0b0bf7f5568e6470",
+    "handoff_artifact_index_sha256": "625c08182a1183ebad640281c0552a5e63eeee8b19c9de92a9d82a9c786db7f6",
     "strict_run_contract_sha256": "ed3ea7af3f2618b24cd7c9c7714d5d760d561fa3a3105b87053abfbfb7ef284a",
     "strict_run_contract_included": true,
     "strict_run_contract_required": false,
@@ -37,17 +37,17 @@
     "id": "external_unblock_package",
     "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
     "exists": true,
-    "size": 15341,
-    "sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
-    "indexed_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
-    "summary_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7"
+    "size": 15347,
+    "sha256": "4467835984952bf009682d319f849debba0527b226a0892d0b0bf7f5568e6470",
+    "indexed_sha256": "4467835984952bf009682d319f849debba0527b226a0892d0b0bf7f5568e6470",
+    "summary_sha256": "4467835984952bf009682d319f849debba0527b226a0892d0b0bf7f5568e6470"
   },
   "handoff_artifact_index": {
     "id": "external_handoff_artifact_index",
     "path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
     "exists": true,
     "size": 15257,
-    "sha256": "92d44afe9ada781d6008372f7a5a03d477372f3c57bd50676324ccff9bce3dad"
+    "sha256": "625c08182a1183ebad640281c0552a5e63eeee8b19c9de92a9d82a9c786db7f6"
   },
   "strict_run_contract": {
     "id": "external_release_strict_run_contract",
@@ -103,7 +103,7 @@
     "source_handoff_status": "ready",
     "source_handoff_ready": true,
     "source_handoff_error": null,
-    "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/933b56a/pr-1-evidence-20260608",
+    "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/main/pr-1-evidence-20260608",
     "present": true,
     "url_valid": true,
     "validation_error": null,
@@ -125,17 +125,17 @@
       "id": "external_unblock_package",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
       "exists": true,
-      "size": 15341,
-      "sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
-      "indexed_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7",
-      "summary_sha256": "114745f341cf0ad55ec7b774dfddbae8fea0d44caa416427b990adf67d72e7c7"
+      "size": 15347,
+      "sha256": "4467835984952bf009682d319f849debba0527b226a0892d0b0bf7f5568e6470",
+      "indexed_sha256": "4467835984952bf009682d319f849debba0527b226a0892d0b0bf7f5568e6470",
+      "summary_sha256": "4467835984952bf009682d319f849debba0527b226a0892d0b0bf7f5568e6470"
     },
     {
       "id": "external_handoff_artifact_index",
       "path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
       "exists": true,
       "size": 15257,
-      "sha256": "92d44afe9ada781d6008372f7a5a03d477372f3c57bd50676324ccff9bce3dad"
+      "sha256": "625c08182a1183ebad640281c0552a5e63eeee8b19c9de92a9d82a9c786db7f6"
     },
     {
       "id": "external_release_strict_run_contract",
