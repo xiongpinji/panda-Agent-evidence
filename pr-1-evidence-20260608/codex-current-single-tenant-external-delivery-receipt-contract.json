@@ -38,8 +38,8 @@
       "name": "single_tenant_external_delivery_receipt_generated_at",
       "status": "passed",
       "details": {
-        "generated_at": "2026-06-08T02:14:37+00:00",
-        "source_handoff_generated_at": "2026-06-08T02:14:36+00:00"
+        "generated_at": "2026-06-08T02:36:49+00:00",
+        "source_handoff_generated_at": "2026-06-08T02:36:48+00:00"
       },
       "error": null
     },

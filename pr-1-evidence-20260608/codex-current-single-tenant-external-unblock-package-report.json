@@ -1,17 +1,17 @@
 {
   "kind": "single_tenant_external_unblock_package_report",
   "version": 1,
-  "generated_at": "2026-06-08T02:14:35+00:00",
+  "generated_at": "2026-06-08T02:36:47+00:00",
   "ok": true,
   "status": "passed",
   "output": "D:\\AI\u7f16\u7a0b\u5e93\\\u9879\u76ee\u5e93\\\u8fdb\u884c\u4e2d\u7684\u9879\u76ee\\GTP5 \u4f18\u5316\\GTP5 \u4f18\u5316\\X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212\\source\\.xagent_runtime\\reports\\single-tenant-external-unblock-package.zip",
-  "archive_sha256": "2cdd7c46d54cd6ab832b9d6727f582474080f014304b53b17019e766739a6092",
-  "archive_size": 15343,
+  "archive_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
+  "archive_size": 15338,
   "file_count": 10,
   "manifest": {
     "kind": "single_tenant_external_unblock_package",
     "version": 1,
-    "created_at": "2026-06-08T02:14:35+00:00",
+    "created_at": "2026-06-08T02:36:47+00:00",
     "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
     "plan_status": "ready",
     "plan_ok": true,
@@ -87,7 +87,7 @@
         "role": "plan",
         "path": "single-tenant-external-unblock-plan.json",
         "size": 1559,
-        "sha256": "af23d1c8b69365d73e628ba82a32f164c8a67d379315d98a6e82b33ffbe88d07"
+        "sha256": "a2aea720091903555ddb1fa16d3821af8c08c6667179844700c7b58471794894"
       },
       {
         "role": "markdown",
@@ -105,7 +105,7 @@
         "role": "release_freeze_handoff",
         "path": "single-tenant-external-release-freeze-handoff.json",
         "size": 15046,
-        "sha256": "244662ed640d6ad5236aea340597128ede0fa22425708dddbcf512331f169b4b"
+        "sha256": "927a137a33bd2d732831c44fa26315186bc56be35b97d13c06c66cbc1e82c9e5"
       },
       {
         "role": "release_freeze_markdown",
@@ -123,7 +123,7 @@
         "role": "external_operator_checklist",
         "path": "single-tenant-external-operator-checklist.json",
         "size": 14812,
-        "sha256": "47debefabdc59a2dac475b23b4b92488d86f505f63762c244fb3a4a1790edf2c"
+        "sha256": "d1122a701fe7aaf2ee34cca7754125002f176cdd6a31424e967deca477fff01a"
       },
       {
         "role": "external_operator_markdown",
@@ -141,20 +141,20 @@
         "role": "operator_rehearsal_map_fill_guide",
         "path": "single-tenant-external-operator-rehearsal-maps.md",
         "size": 5465,
-        "sha256": "dc6417366402ea89f7c5099900dd6c3caba79352706409582ef320765802d437"
+        "sha256": "13e9552345661f2c27c5e6086cb59df5ad7804267d2313cdc5405fa1b6c6aef1"
       }
     ]
   },
   "verification": {
     "kind": "single_tenant_external_unblock_package_verify_report",
     "version": 1,
-    "generated_at": "2026-06-08T02:14:35+00:00",
+    "generated_at": "2026-06-08T02:36:47+00:00",
     "ok": true,
     "status": "passed",
     "archive": "D:\\AI\u7f16\u7a0b\u5e93\\\u9879\u76ee\u5e93\\\u8fdb\u884c\u4e2d\u7684\u9879\u76ee\\GTP5 \u4f18\u5316\\GTP5 \u4f18\u5316\\X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212\\source\\.xagent_runtime\\reports\\single-tenant-external-unblock-package.zip",
-    "archive_sha256": "2cdd7c46d54cd6ab832b9d6727f582474080f014304b53b17019e766739a6092",
-    "archive_size": 15343,
+    "archive_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
+    "archive_size": 15338,
     "checked_files": 10,
-    "manifest_created_at": "2026-06-08T02:14:35+00:00"
+    "manifest_created_at": "2026-06-08T02:36:47+00:00"
   }
 }

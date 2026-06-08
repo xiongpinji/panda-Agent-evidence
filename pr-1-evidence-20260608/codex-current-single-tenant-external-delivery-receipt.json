@@ -1,11 +1,11 @@
 {
   "kind": "single_tenant_external_delivery_receipt",
   "version": 1,
-  "generated_at": "2026-06-08T02:14:37+00:00",
+  "generated_at": "2026-06-08T02:36:49+00:00",
   "source_root": "D:/AI\u7f16\u7a0b\u5e93/\u9879\u76ee\u5e93/\u8fdb\u884c\u4e2d\u7684\u9879\u76ee/GTP5 \u4f18\u5316/GTP5 \u4f18\u5316/X-Agent \u539f\u521b\u5185\u6838\u8ba1\u5212/source",
   "handoff_artifacts_path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
   "remote_handoff_path": ".xagent_runtime/reports/remote-delivery-handoff.json",
-  "source_handoff_generated_at": "2026-06-08T02:14:36+00:00",
+  "source_handoff_generated_at": "2026-06-08T02:36:48+00:00",
   "ok": true,
   "status": "ready",
   "release_ready": true,
@@ -23,9 +23,9 @@
     "blocker_details": 0,
     "root_cause_ids": 0,
     "root_cause_ids_count": 0,
-    "package_sha256": "2cdd7c46d54cd6ab832b9d6727f582474080f014304b53b17019e766739a6092",
-    "handoff_artifact_index_sha256": "6fa3fe2c6994e780c0f058ac7be5643780b6e1450e633f3dec71dd8b14753a38",
-    "strict_run_contract_sha256": "d1782b6e3f3eade76f47ddac570785758db305bf2f44b67faadc346b949b3b50",
+    "package_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
+    "handoff_artifact_index_sha256": "52884f258489c1ef6fcbaf958df2d6cd09db9e19a739f4b22875fe5b8071f9f5",
+    "strict_run_contract_sha256": "ed3ea7af3f2618b24cd7c9c7714d5d760d561fa3a3105b87053abfbfb7ef284a",
     "strict_run_contract_included": true,
     "strict_run_contract_required": false,
     "remote_artifacts_required": false,
@@ -37,17 +37,17 @@
     "id": "external_unblock_package",
     "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
     "exists": true,
-    "size": 15343,
-    "sha256": "2cdd7c46d54cd6ab832b9d6727f582474080f014304b53b17019e766739a6092",
-    "indexed_sha256": "2cdd7c46d54cd6ab832b9d6727f582474080f014304b53b17019e766739a6092",
-    "summary_sha256": "2cdd7c46d54cd6ab832b9d6727f582474080f014304b53b17019e766739a6092"
+    "size": 15338,
+    "sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
+    "indexed_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
+    "summary_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b"
   },
   "handoff_artifact_index": {
     "id": "external_handoff_artifact_index",
     "path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
     "exists": true,
     "size": 15271,
-    "sha256": "6fa3fe2c6994e780c0f058ac7be5643780b6e1450e633f3dec71dd8b14753a38"
+    "sha256": "52884f258489c1ef6fcbaf958df2d6cd09db9e19a739f4b22875fe5b8071f9f5"
   },
   "strict_run_contract": {
     "id": "external_release_strict_run_contract",
@@ -55,8 +55,8 @@
     "included": true,
     "required": false,
     "exists": true,
-    "size": 10242,
-    "sha256": "d1782b6e3f3eade76f47ddac570785758db305bf2f44b67faadc346b949b3b50",
+    "size": 6468,
+    "sha256": "ed3ea7af3f2618b24cd7c9c7714d5d760d561fa3a3105b87053abfbfb7ef284a",
     "ok": false,
     "status": "failed",
     "load_error": null,
@@ -68,19 +68,17 @@
       "release_claim_allowed": false,
       "claim_blockers": [
         "deliverability_task_board_sync is environment_blocked at .xagent_runtime/reports/deliverability-task-board-sync.json",
-        "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json",
-        "single_tenant_external_execution_receipt_assist is environment_blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist.json",
-        "single_tenant_external_execution_receipt_assist_contract is blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist-contract.json"
+        "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json"
       ],
-      "release_progress_percent": 88,
-      "remaining_release_blockers": 4,
-      "claim_blockers_count": 4,
+      "release_progress_percent": 94,
+      "remaining_release_blockers": 2,
+      "claim_blockers_count": 2,
       "required_env_vars_count": 18,
       "required_cli_args_count": 1,
       "root_cause_ids_count": 8,
       "missing_final_artifacts_count": 0,
       "release_ready": false,
-      "failed_checks": 2
+      "failed_checks": 1
     },
     "report_path": ".xagent_runtime/reports/single-tenant-external-release-strict-run.json"
   },
@@ -105,7 +103,7 @@
     "source_handoff_status": "ready",
     "source_handoff_ready": true,
     "source_handoff_error": null,
-    "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/8a227dc/pr-1-evidence-20260608",
+    "url": "https://raw.githubusercontent.com/xiongpinji/panda-Agent-evidence/3702fc4/pr-1-evidence-20260608",
     "present": true,
     "url_valid": true,
     "validation_error": null,
@@ -127,17 +125,17 @@
       "id": "external_unblock_package",
       "path": ".xagent_runtime/reports/single-tenant-external-unblock-package.zip",
       "exists": true,
-      "size": 15343,
-      "sha256": "2cdd7c46d54cd6ab832b9d6727f582474080f014304b53b17019e766739a6092",
-      "indexed_sha256": "2cdd7c46d54cd6ab832b9d6727f582474080f014304b53b17019e766739a6092",
-      "summary_sha256": "2cdd7c46d54cd6ab832b9d6727f582474080f014304b53b17019e766739a6092"
+      "size": 15338,
+      "sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
+      "indexed_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b",
+      "summary_sha256": "4b6bd2441365583aaf6347ff43837f5dcf927fd614dccd16e006579fc3adda3b"
     },
     {
       "id": "external_handoff_artifact_index",
       "path": ".xagent_runtime/reports/single-tenant-external-handoff-artifacts.json",
       "exists": true,
       "size": 15271,
-      "sha256": "6fa3fe2c6994e780c0f058ac7be5643780b6e1450e633f3dec71dd8b14753a38"
+      "sha256": "52884f258489c1ef6fcbaf958df2d6cd09db9e19a739f4b22875fe5b8071f9f5"
     },
     {
       "id": "external_release_strict_run_contract",
@@ -145,8 +143,8 @@
       "included": true,
       "required": false,
       "exists": true,
-      "size": 10242,
-      "sha256": "d1782b6e3f3eade76f47ddac570785758db305bf2f44b67faadc346b949b3b50",
+      "size": 6468,
+      "sha256": "ed3ea7af3f2618b24cd7c9c7714d5d760d561fa3a3105b87053abfbfb7ef284a",
       "ok": false,
       "status": "failed",
       "load_error": null,
@@ -158,19 +156,17 @@
         "release_claim_allowed": false,
         "claim_blockers": [
           "deliverability_task_board_sync is environment_blocked at .xagent_runtime/reports/deliverability-task-board-sync.json",
-          "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json",
-          "single_tenant_external_execution_receipt_assist is environment_blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist.json",
-          "single_tenant_external_execution_receipt_assist_contract is blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist-contract.json"
+          "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json"
         ],
-        "release_progress_percent": 88,
-        "remaining_release_blockers": 4,
-        "claim_blockers_count": 4,
+        "release_progress_percent": 94,
+        "remaining_release_blockers": 2,
+        "claim_blockers_count": 2,
         "required_env_vars_count": 18,
         "required_cli_args_count": 1,
         "root_cause_ids_count": 8,
         "missing_final_artifacts_count": 0,
         "release_ready": false,
-        "failed_checks": 2
+        "failed_checks": 1
       },
       "report_path": ".xagent_runtime/reports/single-tenant-external-release-strict-run.json"
     }

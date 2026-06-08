@@ -13,19 +13,17 @@
     "release_claim_allowed": false,
     "claim_blockers": [
       "deliverability_task_board_sync is environment_blocked at .xagent_runtime/reports/deliverability-task-board-sync.json",
-      "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json",
-      "single_tenant_external_execution_receipt_assist is environment_blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist.json",
-      "single_tenant_external_execution_receipt_assist_contract is blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist-contract.json"
+      "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json"
     ],
-    "release_progress_percent": 88,
-    "remaining_release_blockers": 4,
-    "claim_blockers_count": 4,
+    "release_progress_percent": 94,
+    "remaining_release_blockers": 2,
+    "claim_blockers_count": 2,
     "required_env_vars_count": 18,
     "required_cli_args_count": 1,
     "root_cause_ids_count": 8,
     "missing_final_artifacts_count": 0,
     "release_ready": false,
-    "failed_checks": 2
+    "failed_checks": 1
   },
   "results": [
     {
@@ -96,16 +94,16 @@
       "details": {
         "total": 34,
         "required_total": 34,
-        "passed": 30,
-        "required_passed": 30,
+        "passed": 32,
+        "required_passed": 32,
         "planned": 0,
-        "blocked": 2,
-        "required_blocked": 2,
-        "environment_blocked": 2,
-        "required_environment_blocked": 2,
+        "blocked": 1,
+        "required_blocked": 1,
+        "environment_blocked": 1,
+        "required_environment_blocked": 1,
         "failed": 0,
         "required_failed": 0,
-        "release_blockers": 4,
+        "release_blockers": 2,
         "required_env_vars": 18,
         "required_cli_args": 1,
         "release_ready": false
@@ -116,7 +114,7 @@
       "name": "single_tenant_external_release_strict_run_gaps",
       "status": "passed",
       "details": {
-        "gaps": 4
+        "gaps": 2
       },
       "error": null
     },
@@ -124,8 +122,8 @@
       "name": "single_tenant_external_release_strict_run_top_level_gaps",
       "status": "passed",
       "details": {
-        "release_progress_percent": 88,
-        "remaining_release_blockers": 4,
+        "release_progress_percent": 94,
+        "remaining_release_blockers": 2,
         "root_cause_ids_count": 8,
         "missing_final_artifacts_count": 0
       },
@@ -149,89 +147,20 @@
         "release_claim_allowed": false,
         "claim_blockers": [
           "deliverability_task_board_sync is environment_blocked at .xagent_runtime/reports/deliverability-task-board-sync.json",
-          "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json",
-          "single_tenant_external_execution_receipt_assist is environment_blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist.json",
-          "single_tenant_external_execution_receipt_assist_contract is blocked at .xagent_runtime/reports/single-tenant-external-execution-receipt-assist-contract.json"
+          "single_tenant_external_operator_rehearsal_gate is blocked at .xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json"
         ]
       },
       "error": null
     },
     {
       "name": "single_tenant_external_release_strict_run_final_artifacts",
-      "status": "failed",
+      "status": "passed",
       "details": {
-        "missing_fields": {},
-        "hash_errors": {
-          "single_tenant_external_operator_rehearsal_gate": {
-            "path": ".xagent_runtime/reports/single-tenant-external-operator-rehearsal-gate.json",
-            "expected": {
-              "size": 4607,
-              "sha256": "b144fd9fad2c4f167915c8519ae059783a66e5203af5db9c505c9d02920bdb0b"
-            },
-            "actual": {
-              "size": 4177,
-              "sha256": "217f3b2ba10d56de7a990f060ea59f6b80a4ec660920156f5c03d4f75099b92a"
-            }
-          },
-          "single_tenant_external_upload_bundle_index": {
-            "path": ".xagent_runtime/reports/single-tenant-external-upload-bundle-index.json",
-            "expected": {
-              "size": 12544,
-              "sha256": "ced153f38d0a948df3f416a66c775ff1b9119f4b5153cfc8efc3ae4669a6a587"
-            },
-            "actual": {
-              "size": 12544,
-              "sha256": "30b2ba98015089522f96ddb8f1804dab827c7497fe516bb3898829595febd689"
-            }
-          },
-          "single_tenant_external_upload_bundle_index_contract": {
-            "path": ".xagent_runtime/reports/single-tenant-external-upload-bundle-index-contract.json",
-            "expected": {
-              "size": 2722,
-              "sha256": "e35a831702903824541e2159714e8787d10b9a19c344d32d173cbcef145a5a89"
-            },
-            "actual": {
-              "size": 2722,
-              "sha256": "6f1828ba1c59b2fc5c9e68077aa3c1dc1c38c794db6e99ac977de40c8c995352"
-            }
-          },
-          "single_tenant_external_pr_ci_upload_handoff": {
-            "path": ".xagent_runtime/reports/single-tenant-external-pr-ci-upload-handoff.json",
-            "expected": {
-              "size": 46485,
-              "sha256": "65cc0b131e30c69516af108d34aee672dd62e0282b8f37eebe70a6e507c61a57"
-            },
-            "actual": {
-              "size": 46393,
-              "sha256": "a1af64790b189eb476fa306c3cda30b5830aa79fd8b441c8855ed0ca16820484"
-            }
-          },
-          "single_tenant_external_pr_ci_upload_handoff_contract": {
-            "path": ".xagent_runtime/reports/single-tenant-external-pr-ci-upload-handoff-contract.json",
-            "expected": {
-              "size": 4173,
-              "sha256": "a0f9763582dc19a6fafaa9d2215ac8ef323d59462c385ff6910b86c3eae4b4bc"
-            },
-            "actual": {
-              "size": 4173,
-              "sha256": "fd6351bbb8a0cfe5c998a5778ee8d0fb2f787f82dee7d8e51efedbcbb7f404e1"
-            }
-          },
-          "single_tenant_external_pr_ci_upload_handoff_markdown": {
-            "path": ".xagent_runtime/reports/single-tenant-external-pr-ci-upload-handoff.md",
-            "expected": {
-              "size": 21324,
-              "sha256": "39ac6705f299995f28ca266de4561bc13418c238c32b28d0a77636c2b173d5e2"
-            },
-            "actual": {
-              "size": 21146,
-              "sha256": "afeb3634c2304b3dd48ab3be1eff2bbdf46b180e7942bea1a311e3a91de95b74"
-            }
-          }
-        },
-        "missing_required_paths": []
+        "artifacts": 33,
+        "existing": 33,
+        "plan_snapshot_hash_skips": 0
       },
-      "error": "Strict release run final_artifacts must be a coherent artifact index."
+      "error": null
     },
     {
       "name": "single_tenant_external_release_strict_run_secret_tails",
